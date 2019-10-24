@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tear
+  - Room
   layers:
   - Default
   - TransparentFX

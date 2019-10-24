@@ -7,12 +7,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float speed = 3f;
     [SerializeField] private float shotSpeed = 150f;
     [SerializeField] private float timeShot = 1;
+    [SerializeField] private float lastShotTime = 0;
+    [SerializeField] private float timeBeweenShots = 0.5f;
     [SerializeField] GameObject tearShot;
 
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void FixedUpdate()
@@ -27,29 +25,36 @@ public class Player : MonoBehaviour
 
     private void InputShot()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if(Time.time - lastShotTime > timeBeweenShots)
         {
-            GameObject tear = Instantiate(tearShot, transform.position, Quaternion.identity);
-            tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, shotSpeed));
-            Destroy(tear, timeShot);
-        }
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            GameObject tear = Instantiate(tearShot, transform.position, Quaternion.identity);
-            tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(-shotSpeed, 0));
-            Destroy(tear, timeShot);
-        }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            GameObject tear = Instantiate(tearShot, transform.position, Quaternion.identity);
-            tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -shotSpeed));
-            Destroy(tear, timeShot);
-        }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            GameObject tear = Instantiate(tearShot, transform.position + new Vector3(0, 0.3f, 0), Quaternion.identity);
-            tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(shotSpeed, 0));
-            Destroy(tear, timeShot);
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                GameObject tear = Instantiate(tearShot, transform.position, Quaternion.identity);
+                tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, shotSpeed));
+                Destroy(tear, timeShot);
+                lastShotTime = Time.time;
+            }
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                GameObject tear = Instantiate(tearShot, transform.position, Quaternion.identity);
+                tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(-shotSpeed, 0));
+                Destroy(tear, timeShot);
+                lastShotTime = Time.time;
+            }
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                GameObject tear = Instantiate(tearShot, transform.position, Quaternion.identity);
+                tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -shotSpeed));
+                Destroy(tear, timeShot);
+                lastShotTime = Time.time;
+            }
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                GameObject tear = Instantiate(tearShot, transform.position, Quaternion.identity);
+                tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(shotSpeed, 0));
+                Destroy(tear, timeShot);
+                lastShotTime = Time.time;
+            }
         }
     }
 }
