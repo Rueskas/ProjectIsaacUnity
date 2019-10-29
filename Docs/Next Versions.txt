@@ -2,3 +2,8 @@
 - Player
 - Enemy
 - Prefab Room
+
+0.2 Version
+-Spawn Random Enemies
+-Instantiate random rooms connecting 
+	them to each other (Level Map)

@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class EnemyWithoutHead : MonoBehaviour
 {
-    private Rigidbody2D rigidbody2D;
+    private Rigidbody2D rb2D;
     [SerializeField] private GameObject player;
     [SerializeField] private float minTimeWaiting = 1;
     [SerializeField] private float maxTimeWaiting = 3;
     [SerializeField] private int live = 100;
     [SerializeField] private float vectorDistanceIncreaser = 2.5f;
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        rb2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         player = FindObjectOfType<Player>().gameObject;
         StartCoroutine("Move");
     }
@@ -22,7 +26,22 @@ public class EnemyWithoutHead : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(Random.Range(minTimeWaiting, maxTimeWaiting));
         Vector2 vectorDirection = player.transform.position - transform.position;
-        rigidbody2D.AddForce(vectorDirection* vectorDistanceIncreaser, ForceMode2D.Impulse);
+        rb2D.AddForce(vectorDirection* vectorDistanceIncreaser, ForceMode2D.Impulse);
+        float angle = AngleBetween(Vector2.zero, vectorDirection);
+        if( (angle < 0 && angle > -45) || (angle > 0 && angle < 45) )
+        {
+            animator.Play("RunLeftRight");
+            spriteRenderer.flipX = false;
+        }
+        else if ( angle < -135  || angle > 135)
+        {
+            animator.Play("RunLeftRight");
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            animator.Play("RunUpDown");
+        }
         StartCoroutine("Move");
     }
 
@@ -30,7 +49,16 @@ public class EnemyWithoutHead : MonoBehaviour
     {
         if(live <= 0)
         {
+            transform.parent.SendMessage("EnemyDeath");
             Destroy(this.gameObject);
+        }
+        if(rb2D.velocity == Vector2.zero)
+        {
+            animator.SetBool("Moving", true);
+        }
+        else
+        {
+            animator.SetBool("Moving", false);
         }
     }
 
@@ -40,5 +68,12 @@ public class EnemyWithoutHead : MonoBehaviour
         {
             live -= collision.gameObject.GetComponent<Tear>().GetDamage();
         }
+    }
+
+    private float AngleBetween(Vector2 v1, Vector2 v2)
+    {
+        Vector2 diference = v2 - v1;
+        float sign = (v2.y < v1.y) ? -1.0f : 1.0f;
+        return Vector2.Angle(Vector2.right, diference) * sign;
     }
 }

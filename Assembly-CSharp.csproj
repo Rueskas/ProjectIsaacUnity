@@ -62,8 +62,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\EnemyWithoutHead.cs" />
+    <Compile Include="Assets\Scripts\FullHearth.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\HalfHearth.cs" />
+    <Compile Include="Assets\Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Room.cs" />
     <Compile Include="Assets\Scripts\Tear.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Ruesk/Documents/2 DAM/Programacion Multimedia y Dispositivos Moviles/IsaacUnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

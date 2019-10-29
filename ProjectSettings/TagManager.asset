@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Tear
   - Room
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -15,10 +16,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - SpawnZone
+  - CheckFreeZone
+  - Player
+  - Points
   - 
   - 
   - 
