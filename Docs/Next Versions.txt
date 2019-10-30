@@ -7,3 +7,11 @@
 -Spawn Random Enemies
 -Instantiate random rooms connecting 
 	them to each other (Level Map)
+0.3 Version
+Connect rooms and move between rooms if kill all enemies
+
+0.4 Version
+Player lives
+Hearths (health)
+New Enemy (Minipop)
+Key of treasure door

@@ -51,7 +51,7 @@ MonoBehaviour:
   minTimeWaiting: 1
   maxTimeWaiting: 5
   live: 100
-  vectorDistanceIncreaser: 2.5
+  vectorDistanceIncreaser: 3
 --- !u!58 &2346728741320163959
 CircleCollider2D:
   m_ObjectHideFlags: 0

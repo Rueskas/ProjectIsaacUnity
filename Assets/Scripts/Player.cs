@@ -152,8 +152,23 @@ public class Player : MonoBehaviour
 
     public void SetActiveCollider(bool isActive)
     {
-        print("LLEGA");
         GetComponent<Collider2D>().enabled = isActive;
+    }
+
+    IEnumerator ChangeColorDamaged()
+    {
+        SpriteRenderer[] spriteRenderer = GetComponentsInChildren<SpriteRenderer>();
+        for(int i = 0; i < 2; i++)
+        {
+            spriteRenderer[i].color = Color.red;
+        }
+        spriteRenderer[1].color = Color.red;
+        yield return new WaitForSecondsRealtime(0.3f);
+        for (int i = 0; i < 2; i++)
+        {
+            spriteRenderer[i].color = Color.white;
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -193,6 +208,14 @@ public class Player : MonoBehaviour
             camera.Move(pointZero.transform);
 
             room.EnterFocus();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            StartCoroutine("ChangeColorDamaged");
         }
     }
 

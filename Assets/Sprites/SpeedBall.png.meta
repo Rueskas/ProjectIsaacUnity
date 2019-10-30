@@ -1,0 +1,1471 @@
+fileFormatVersion: 2
+guid: 7c899652e08e3f9499e7a5843dace238
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1645967147825430576
+    second: SpeedBall_0
+  - first:
+      213: 4161098394040393711
+    second: SpeedBall_1
+  - first:
+      213: -6249261986477314117
+    second: SpeedBall_2
+  - first:
+      213: 5563807543836633427
+    second: SpeedBall_3
+  - first:
+      213: 1235500259971521466
+    second: SpeedBall_4
+  - first:
+      213: -2542603186142549661
+    second: SpeedBall_5
+  - first:
+      213: -6668915022736365664
+    second: SpeedBall_6
+  - first:
+      213: -148088211162818224
+    second: SpeedBall_7
+  - first:
+      213: -7989625995000737202
+    second: SpeedBall_8
+  - first:
+      213: 3000287208076329574
+    second: SpeedBall_9
+  - first:
+      213: -1878983254315199773
+    second: SpeedBall_10
+  - first:
+      213: -8684860898480231210
+    second: SpeedBall_11
+  - first:
+      213: -3112673024668297856
+    second: SpeedBall_12
+  - first:
+      213: 2626108816644879092
+    second: SpeedBall_13
+  - first:
+      213: -468994883932665244
+    second: SpeedBall_14
+  - first:
+      213: -7668852144401579260
+    second: SpeedBall_15
+  - first:
+      213: -2568400997879908315
+    second: SpeedBall_16
+  - first:
+      213: -1763309137835594707
+    second: SpeedBall_17
+  - first:
+      213: -4047658559824881933
+    second: SpeedBall_18
+  - first:
+      213: 4185230666445139545
+    second: SpeedBall_19
+  - first:
+      213: -1829223421633185466
+    second: SpeedBall_20
+  - first:
+      213: -5789573803163509795
+    second: SpeedBall_21
+  - first:
+      213: 2019007209563909593
+    second: SpeedBall_22
+  - first:
+      213: 2106563227292855225
+    second: SpeedBall_23
+  - first:
+      213: 8506104308345528211
+    second: SpeedBall_24
+  - first:
+      213: -1156679028023665002
+    second: SpeedBall_25
+  - first:
+      213: 1241287370633586129
+    second: SpeedBall_26
+  - first:
+      213: -2858776114689240289
+    second: SpeedBall_27
+  - first:
+      213: 3000537841452645704
+    second: SpeedBall_28
+  - first:
+      213: 5574543115765664907
+    second: SpeedBall_29
+  - first:
+      213: 2329154653430071423
+    second: SpeedBall_30
+  - first:
+      213: 333661221864755111
+    second: SpeedBall_31
+  - first:
+      213: -1032715374034230665
+    second: SpeedBall_32
+  - first:
+      213: 4218259060218339272
+    second: SpeedBall_33
+  - first:
+      213: 2711672715123573092
+    second: SpeedBall_34
+  - first:
+      213: -3907337954079258933
+    second: SpeedBall_35
+  - first:
+      213: -5589260034715104879
+    second: SpeedBall_36
+  - first:
+      213: 7074704480835189009
+    second: SpeedBall_37
+  - first:
+      213: -5529951204428806798
+    second: SpeedBall_38
+  - first:
+      213: 6407742143667790002
+    second: SpeedBall_39
+  - first:
+      213: -3951951698880539526
+    second: SpeedBall_40
+  - first:
+      213: -8873994058423598275
+    second: SpeedBall_41
+  - first:
+      213: -2127830966199750597
+    second: SpeedBall_42
+  - first:
+      213: -8392072854464979559
+    second: SpeedBall_43
+  - first:
+      213: 8480679193263306728
+    second: SpeedBall_44
+  - first:
+      213: -919003674843710335
+    second: SpeedBall_45
+  - first:
+      213: 240181883609286638
+    second: SpeedBall_46
+  - first:
+      213: -2480280647713028662
+    second: SpeedBall_47
+  - first:
+      213: -8940245042251184314
+    second: SpeedBall_48
+  - first:
+      213: 8405176453360398752
+    second: SpeedBall_49
+  - first:
+      213: -8575267994640677947
+    second: SpeedBall_50
+  - first:
+      213: -5040504470060871270
+    second: SpeedBall_51
+  - first:
+      213: 4862698751170926711
+    second: SpeedBall_52
+  - first:
+      213: -7460569616590677347
+    second: SpeedBall_53
+  - first:
+      213: -4410099994356002316
+    second: SpeedBall_54
+  - first:
+      213: 767978656776623663
+    second: SpeedBall_55
+  - first:
+      213: 5845992620818392775
+    second: SpeedBall_56
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpeedBall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 260
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51f2cddf7f330f40bfa1a9fdbcda587
+      internalID: 1645967147825430576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 297
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36926c173fc08a049b0affbe47abf0f3
+      internalID: 4161098394040393711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 297
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4245343c677624094d8dc514137b99
+      internalID: -6249261986477314117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 296
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3d58625342d4b4aa6a99c4d96c8008
+      internalID: 5563807543836633427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 297
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8704758e6120d1b45802749685b6c19c
+      internalID: 1235500259971521466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 296
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fb094af28256b449a1711854f3c06f
+      internalID: -2542603186142549661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 297
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c3a62e95a2aa947803e6629d235e46
+      internalID: -6668915022736365664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 296
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaa73c1b1121d647baa51c549f91cd9
+      internalID: -148088211162818224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 259
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb0f4a4ea1ef3d4e92874be4240e6b1
+      internalID: -7989625995000737202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 258
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32123b4ca2e400f499710655682aa232
+      internalID: 3000287208076329574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 259
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a6a052f7f3bd640a5da1ebde9029d0
+      internalID: -1878983254315199773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 258
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2eec2d7539891b47ac0be26f383b7c4
+      internalID: -8684860898480231210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 259
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41579ea7acfbdda46b8222bcd28e6f64
+      internalID: -3112673024668297856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 258
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53bc5b6f69c7ac4bbfbdcb470b82260
+      internalID: 2626108816644879092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 259
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6a0c620f779404db0ba876a5806667
+      internalID: -468994883932665244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_15
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 258
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb09ea4a7391784aa5731d0e738bb99
+      internalID: -7668852144401579260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 260
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5ed10ff1018f942a0ca18042293f7a
+      internalID: -2568400997879908315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_17
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 219
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797c4552d0507564bb88140ae2ecbb67
+      internalID: -1763309137835594707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 220
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630ec3103e9c8234b87049efe22221a5
+      internalID: -4047658559824881933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 219
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69fc7263e3179d4cbf3965af30be1f3
+      internalID: 4185230666445139545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 220
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065b5289316f1c24da87c3979d7fb5f5
+      internalID: -1829223421633185466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 219
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b939befc04f8224fa5e4fe43eaed37d
+      internalID: -5789573803163509795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 220
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e731a53d999694b9fafbee8dbc97c4
+      internalID: 2019007209563909593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_23
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 219
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011d8e71cd4c438418621497777192c9
+      internalID: 2106563227292855225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 260
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba927a6b8b8e4246925e4e3ff7981eb
+      internalID: 8506104308345528211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 181
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260e309ddaebb1f4496970331c0a997b
+      internalID: -1156679028023665002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 182
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae55331c4a942404e9bda78f0a8225c6
+      internalID: 1241287370633586129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_27
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 181
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e30047b4ee3f44b802857fb3358086
+      internalID: -2858776114689240289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_28
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 182
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae9b748e8575d3459afd9024ff488c1
+      internalID: 3000537841452645704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_29
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 181
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8256bd56d36bef44aceb5675f28b86b
+      internalID: 5574543115765664907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 182
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4343ce6962a52c74c9cef6668756aff5
+      internalID: 2329154653430071423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_31
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 181
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116d445244f949c4c843ee0ab761460e
+      internalID: 333661221864755111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 260
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c899d45121a9daf4a9a6fd50bc018936
+      internalID: -1032715374034230665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_33
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 140
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942fc1112430d5547ad1c3f8ccfa761f
+      internalID: 4218259060218339272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_34
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 141
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af96dfb2a818ac4093b6aef848fe433
+      internalID: 2711672715123573092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_35
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 140
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98960c4c0e1d365489b8e98bd1e0684f
+      internalID: -3907337954079258933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_36
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 141
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a421f0528cac5a4d9351d75024ec70b
+      internalID: -5589260034715104879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_37
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 140
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e2cf8f33ee9db40b96ab2dac52a67c
+      internalID: 7074704480835189009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_38
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 141
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5cf7f6903f96b4d9345b7e55236f61
+      internalID: -5529951204428806798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_39
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 140
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae7c4b779a65f14fbe2045a5e1b4f0f
+      internalID: 6407742143667790002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 260
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd124596779d3cb4a83ddb1f32846ada
+      internalID: -3951951698880539526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_41
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 101
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e730106099c3f42a50e9b31fbc8a1b
+      internalID: -8873994058423598275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_42
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 102
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed6f322407d0ee459125a6d028435e4
+      internalID: -2127830966199750597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_43
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 101
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcd55733792e7e42a62350c53a0c838
+      internalID: -8392072854464979559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 102
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5059899dc1c4d244c859bccc5c707a44
+      internalID: 8480679193263306728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_45
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 101
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a298724a0799254d9db0a008cbd0008
+      internalID: -919003674843710335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_46
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 102
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3031a546465958143a2398b3a347a880
+      internalID: 240181883609286638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_47
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 101
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46673ede61e3664993cf1a722c0ad9f
+      internalID: -2480280647713028662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 260
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394f1663601112c4ab36df52868ab794
+      internalID: -8940245042251184314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_49
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 56
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8809c75f03caa74aad818a688fa06d0
+      internalID: 8405176453360398752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_50
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 57
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d04b7826f2f8024a85e5c52162d6447
+      internalID: -8575267994640677947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_51
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 56
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cd2a6ba71c0d343aae28d689fef446
+      internalID: -5040504470060871270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_52
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 57
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e055d9b345cda042a900b9f9b6ff2c3
+      internalID: 4862698751170926711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_53
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 56
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9b007e65bccad4c9ca2d78ca6927e5
+      internalID: -7460569616590677347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_54
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 57
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ce148f08d9e4243918187ccaacf90b
+      internalID: -4410099994356002316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_55
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 56
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f379b1fbeb1b8948b24b8524dc9da22
+      internalID: 767978656776623663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedBall_56
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 15
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ab98db05e556346ae9caee03703ca3
+      internalID: 5845992620818392775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

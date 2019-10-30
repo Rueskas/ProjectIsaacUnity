@@ -1,0 +1,2071 @@
+fileFormatVersion: 2
+guid: d5ec969ab1168884e8af25b325bfc1bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3363029169209137599
+    second: differentTears_0
+  - first:
+      213: -6420928199060092144
+    second: differentTears_1
+  - first:
+      213: 5837046054516764785
+    second: differentTears_2
+  - first:
+      213: 7086532734843487751
+    second: differentTears_3
+  - first:
+      213: -4277968791044649689
+    second: differentTears_4
+  - first:
+      213: 7068189456885097827
+    second: differentTears_5
+  - first:
+      213: 1138257198570880939
+    second: differentTears_6
+  - first:
+      213: -7983954776490245175
+    second: differentTears_7
+  - first:
+      213: 7974467105516146520
+    second: differentTears_8
+  - first:
+      213: 623249896789807373
+    second: differentTears_9
+  - first:
+      213: -3911021294411379002
+    second: differentTears_10
+  - first:
+      213: 141125659616853261
+    second: differentTears_11
+  - first:
+      213: -5127148335561830996
+    second: differentTears_12
+  - first:
+      213: -3184290370904550388
+    second: differentTears_13
+  - first:
+      213: 6902812555892551742
+    second: differentTears_14
+  - first:
+      213: -3847288213020703068
+    second: differentTears_15
+  - first:
+      213: -6562886853652498245
+    second: differentTears_16
+  - first:
+      213: -353933558196319101
+    second: differentTears_17
+  - first:
+      213: -9223349942583985672
+    second: differentTears_18
+  - first:
+      213: 406500350224393086
+    second: differentTears_19
+  - first:
+      213: 3084948993141868358
+    second: differentTears_20
+  - first:
+      213: 2527001430625840635
+    second: differentTears_21
+  - first:
+      213: 1640478316310057034
+    second: differentTears_22
+  - first:
+      213: -3394911871203552309
+    second: differentTears_23
+  - first:
+      213: -4315025005461734587
+    second: differentTears_24
+  - first:
+      213: 3449384726270626562
+    second: differentTears_25
+  - first:
+      213: 2060113717679346019
+    second: differentTears_26
+  - first:
+      213: 293713331542521799
+    second: differentTears_27
+  - first:
+      213: 6008411874696843976
+    second: differentTears_28
+  - first:
+      213: 2637677350337199571
+    second: differentTears_29
+  - first:
+      213: -2255172953632798994
+    second: differentTears_30
+  - first:
+      213: 3312710562693076259
+    second: differentTears_31
+  - first:
+      213: 5210499846347514708
+    second: differentTears_32
+  - first:
+      213: 488196212179381321
+    second: differentTears_33
+  - first:
+      213: 4670462441711008399
+    second: differentTears_34
+  - first:
+      213: 912477557482491131
+    second: differentTears_35
+  - first:
+      213: -8987297099538704302
+    second: differentTears_36
+  - first:
+      213: 8016919534292070384
+    second: differentTears_37
+  - first:
+      213: -7640007249537719589
+    second: differentTears_38
+  - first:
+      213: -7620543744565850978
+    second: differentTears_39
+  - first:
+      213: -8150555167048282062
+    second: differentTears_40
+  - first:
+      213: -2913458216172573072
+    second: differentTears_41
+  - first:
+      213: -6531745703782674762
+    second: differentTears_42
+  - first:
+      213: 8126099636879645123
+    second: differentTears_43
+  - first:
+      213: -5232461538911977936
+    second: differentTears_44
+  - first:
+      213: -1777952602531746072
+    second: differentTears_45
+  - first:
+      213: 2838402553502834775
+    second: differentTears_46
+  - first:
+      213: -8892013330882261118
+    second: differentTears_47
+  - first:
+      213: -3434613861083312707
+    second: differentTears_48
+  - first:
+      213: 4994939294573237633
+    second: differentTears_49
+  - first:
+      213: 728749020028493105
+    second: differentTears_50
+  - first:
+      213: -4865113576312324491
+    second: differentTears_51
+  - first:
+      213: 2042705607230237493
+    second: differentTears_52
+  - first:
+      213: -7089586892533875871
+    second: differentTears_53
+  - first:
+      213: -2397937888721221596
+    second: differentTears_54
+  - first:
+      213: -52701798821960423
+    second: differentTears_55
+  - first:
+      213: -7246491960702618475
+    second: differentTears_56
+  - first:
+      213: -7249249022127530566
+    second: differentTears_57
+  - first:
+      213: 5637444857378813822
+    second: differentTears_58
+  - first:
+      213: -1440966280560106929
+    second: differentTears_59
+  - first:
+      213: 2221735279266238446
+    second: differentTears_60
+  - first:
+      213: 7617485263670452056
+    second: differentTears_61
+  - first:
+      213: -5912611575109120920
+    second: differentTears_62
+  - first:
+      213: 8439527594394851910
+    second: differentTears_63
+  - first:
+      213: -7299261004989992951
+    second: differentTears_64
+  - first:
+      213: -8932297262365473992
+    second: differentTears_65
+  - first:
+      213: -619037426741020746
+    second: differentTears_66
+  - first:
+      213: -71171518451103124
+    second: differentTears_67
+  - first:
+      213: 7740983232429560759
+    second: differentTears_68
+  - first:
+      213: -6112513961517388691
+    second: differentTears_69
+  - first:
+      213: 1996921819000172851
+    second: differentTears_70
+  - first:
+      213: 5338851090700677132
+    second: differentTears_71
+  - first:
+      213: -7319258222794341252
+    second: differentTears_72
+  - first:
+      213: 4292247812666944624
+    second: differentTears_73
+  - first:
+      213: -252415510337348283
+    second: differentTears_74
+  - first:
+      213: 6579175991099105950
+    second: differentTears_75
+  - first:
+      213: 3156292789257904760
+    second: differentTears_76
+  - first:
+      213: -2697506596869266912
+    second: differentTears_77
+  - first:
+      213: 6514863896995069239
+    second: differentTears_78
+  - first:
+      213: -7778071097148876599
+    second: differentTears_79
+  - first:
+      213: 5890726126489079581
+    second: differentTears_80
+  - first:
+      213: -54657959327628514
+    second: differentTears_81
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: differentTears_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 568
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16340cdc7ae963d4296d4daa3c80ace1
+      internalID: -3363029169209137599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 566
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa632548f190664bb089704c369e62e
+      internalID: -6420928199060092144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 566
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3540a101edbb34c8ca2c8916d1cab0
+      internalID: 5837046054516764785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 564
+        width: 23
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0b8271b7540ed41a0962bbe87b6b24
+      internalID: 7086532734843487751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 564
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d38e14de6505574baa4c864b247f0f2
+      internalID: -4277968791044649689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 563
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33700dfef940664589ff0314da27fcf
+      internalID: 7068189456885097827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_6
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 562
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2269feb401c351a47b48e2563d508e8a
+      internalID: 1138257198570880939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_7
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 560
+        width: 33
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779db759c40a11c4f804da156004748a
+      internalID: -7983954776490245175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_8
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 568
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb01676b7c9e5ba4f9eb4cb304f6f082
+      internalID: 7974467105516146520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_9
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 566
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6446ad910be95694985e6029866cb9ad
+      internalID: 623249896789807373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_10
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 566
+        width: 19
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8ae4d851813264ab838742b2feb553
+      internalID: -3911021294411379002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_11
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 564
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607191d9aeacc0a47aa8b58f59aebfe8
+      internalID: 141125659616853261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_12
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 564
+        width: 23
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184014a223c6e8b498b57a62d1a00b42
+      internalID: -5127148335561830996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_13
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 562
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1600dd21ce3a2294a8e5e8f542221e51
+      internalID: -3184290370904550388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_14
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 562
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654f7730442567d488e7a7e056b8f1e9
+      internalID: 6902812555892551742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_15
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 560
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d853e453321de43a0106e056b9d2de
+      internalID: -3847288213020703068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 494
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8faf88f4bf86b642adac561ffae205a
+      internalID: -6562886853652498245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 493
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5476601525e7b474fbbee808c8a72c30
+      internalID: -353933558196319101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 490
+        width: 44
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d47c9f86d08ba49828375a311581c2
+      internalID: -9223349942583985672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_19
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 489
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b6686a6d36ccc498bac11448a496b9
+      internalID: 406500350224393086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_20
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 487
+        width: 52
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781fd1b5a565d554c9facd607f96b69d
+      internalID: 3084948993141868358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_21
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 494
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597d1f0ad50a1604ba97d70b02a9642a
+      internalID: 2527001430625840635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_22
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 492
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86be9d3f93f5e3c4b9c3951859716406
+      internalID: 1640478316310057034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_23
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 490
+        width: 43
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61449b34b0c4054fa05df6f526c6288
+      internalID: -3394911871203552309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_24
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 488
+        width: 48
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7c9b628c67a794b830714f0d686a38
+      internalID: -4315025005461734587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_25
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 486
+        width: 53
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e10f32a503dfe44ca652688ae2937e4
+      internalID: 3449384726270626562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 409
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26b40d93fb0789498ed1f2ea63a69f9
+      internalID: 2060113717679346019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_27
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 406
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0f309f6a2a90c41be2b42d1dc6c253
+      internalID: 293713331542521799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_28
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 406
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb73650f19043dc499e6d58b9294208d
+      internalID: 6008411874696843976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 405
+        width: 22
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf94f885c4752cf4c9e6f8720b78791f
+      internalID: 2637677350337199571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_30
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 404
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3491b4b67f0404f9c42ed30b70cab6
+      internalID: -2255172953632798994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_31
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 403
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de2ea8102dd45a4bba7c054e0ee377d
+      internalID: 3312710562693076259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_32
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 402
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcea9deffd37a94ab27c40a3cf8f1ef
+      internalID: 5210499846347514708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_33
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 400
+        width: 33
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87176d0de64baa4c86a973813bf7f9e
+      internalID: 488196212179381321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_34
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 404
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e1a18268758f04abb721f71c24de53
+      internalID: 4670462441711008399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_35
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 402
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df18a80a93ac7bb48a3bc660c5f95104
+      internalID: 912477557482491131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_36
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 402
+        width: 19
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952bdc7ecbea50a49af0d89549c009db
+      internalID: -8987297099538704302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_37
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 400
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86036c7483a8bd0449906a410c1cb6c6
+      internalID: 8016919534292070384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_38
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 400
+        width: 23
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ce24bc12006394083d6f87b10f18f9
+      internalID: -7640007249537719589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_39
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 398
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e74e01bca5e25409bd4a2666df4fab
+      internalID: -7620543744565850978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_40
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 398
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d64fec8868b19240beb3e2e0716a7d1
+      internalID: -8150555167048282062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_41
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 396
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96f47ef1cd68ea4c8c0eca1af06274a
+      internalID: -2913458216172573072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_42
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 335
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e948ae43e8a21469f46fd831c190ba
+      internalID: -6531745703782674762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_43
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 334
+        width: 40
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10086c0170647724f97eb6f7ff0b38b3
+      internalID: 8126099636879645123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_44
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 331
+        width: 44
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6eb73c38e1d4bb4780a2f277f3900f8
+      internalID: -5232461538911977936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_45
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 329
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1457d6b7ecf9149a2abcb00b700beb
+      internalID: -1777952602531746072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_46
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 328
+        width: 52
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245b54fdbbd30004a80835322f5ca74e
+      internalID: 2838402553502834775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_47
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 330
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17208ac14ebf1cd4b881b045832f26a1
+      internalID: -8892013330882261118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_48
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 328
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e2822856532d34e937c30fdf6d5e24
+      internalID: -3434613861083312707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_49
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 326
+        width: 43
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054f3d85ac3619c4ab7290c33c1ced0b
+      internalID: 4994939294573237633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_50
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 324
+        width: 48
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efff7db3a6c7584b8e8d74cbb463c83
+      internalID: 728749020028493105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_51
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 323
+        width: 53
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f5620878a09d14785cea37d01b8c46
+      internalID: -4865113576312324491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_52
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 158
+        width: 63
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57de03f48a937534da5cbf360e52bae6
+      internalID: 2042705607230237493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_53
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 158
+        width: 63
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c89c95cf839b847b68903b78ab0806
+      internalID: -7089586892533875871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_54
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 243
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45cece96fc9c9e4fa63cea13614a076
+      internalID: -2397937888721221596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_55
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 158
+        width: 62
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64eeb99f5142964db9144d59979194f
+      internalID: -52701798821960423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_56
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 233
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b3ef2401ee3fa4790fcc401651f924
+      internalID: -7246491960702618475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_57
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 233
+        width: 9
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e349ddbb3060f114494e13c2bfd7b389
+      internalID: -7249249022127530566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_58
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 242
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2efb807e6178244a4529ad2d9fe83d
+      internalID: 5637444857378813822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_59
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 164
+        width: 60
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e6dab236170ad45bd470d8b286e5c0
+      internalID: -1440966280560106929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_60
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 162
+        width: 60
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b44cf778da1e3c47af95e430819dd37
+      internalID: 2221735279266238446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_61
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 227
+        width: 9
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a867d625c125d0a479e015ad73002711
+      internalID: 7617485263670452056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_62
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 239
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a683594baf7d146bdaba140ed88749
+      internalID: -5912611575109120920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_63
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 164
+        width: 61
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a54a55953b1ba7449ffdcc1eccbdb93
+      internalID: 8439527594394851910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_64
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 239
+        width: 7
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90494894553c5e04490076db3ac407af
+      internalID: -7299261004989992951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_65
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 158
+        width: 63
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2453c7139df3da429563f163c3d3a59
+      internalID: -8932297262365473992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_66
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 164
+        width: 61
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceeec2b3f386f8040abb641277fc4d19
+      internalID: -619037426741020746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_67
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 26
+        width: 93
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c0362f8d690374295c445bb5a63d1d
+      internalID: -71171518451103124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_68
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 87
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b61b0eb062aaa4094d375d9dbb8fe0
+      internalID: 7740983232429560759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_69
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 68
+        width: 17
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c354d6964cce442b27fc07ebd147f5
+      internalID: -6112513961517388691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_70
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 26
+        width: 89
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d976d85a7d15b4fbf13ab9dfde242b
+      internalID: 1996921819000172851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_71
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 26
+        width: 84
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baa75661aeae5e4dadee48fa833bb01
+      internalID: 5338851090700677132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_72
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 34
+        width: 93
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935f6b53206ef524981ef2274f121e03
+      internalID: -7319258222794341252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_73
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 34
+        width: 88
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766128f6d6bedaf45b7fa8c39a1aaf49
+      internalID: 4292247812666944624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_74
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 76
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8057fd34e647c49a695865960f0a8a
+      internalID: -252415510337348283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_75
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 34
+        width: 75
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e4498094b55c744ad4be10ddcca457
+      internalID: 6579175991099105950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_76
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 34
+        width: 92
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f737b98e89b7f564b910403bade042cb
+      internalID: 3156292789257904760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_77
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 66
+        width: 10
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec934d47e2321304faa2299a73518ff7
+      internalID: -2697506596869266912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_78
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 58
+        width: 21
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7186c75236bd624ab425efb0796b39e
+      internalID: 6514863896995069239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_79
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 49
+        width: 18
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796abd23e2519cd4f93be74e41f8593a
+      internalID: -7778071097148876599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_80
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 58
+        width: 14
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54346e5d92887146b13ab9ed1947571
+      internalID: 5890726126489079581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: differentTears_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 52
+        width: 9
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad12f782dbd060f488b0158337444148
+      internalID: -54657959327628514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

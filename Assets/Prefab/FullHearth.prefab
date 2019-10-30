@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3451949190819629275}
   m_Layer: 0
   m_Name: FullHearth
-  m_TagString: Untagged
+  m_TagString: FullHearth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
