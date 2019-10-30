@@ -160,24 +160,28 @@ public class Player : MonoBehaviour
     {
         if(collision.tag == "Door")
         {
-            switch (collision.name)
+            Door door = collision.GetComponent<Door>();
+            if(door.GetIsOpened()== true)
             {
-                case "DoorPointLeft":
-                    transform.position = transform.position + new Vector3(
-                         LevelController.offsetBetweenDoorsX, 0,0);
-                    break;
-                case "DoorPointRight":
-                    transform.position = transform.position + new Vector3(
-                        -LevelController.offsetBetweenDoorsX, 0,0);
-                    break;
-                case "DoorPointUp":
-                    transform.position = transform.position + new Vector3(
-                        0, LevelController.offsetBetweenDoorsY,0);
-                    break;
-                case "DoorPointDown":
-                    transform.position = transform.position + new Vector3(
-                        0, -LevelController.offsetBetweenDoorsY,0);
-                    break;
+                switch (collision.name)
+                {
+                    case "DoorPointLeft":
+                        transform.position = transform.position + new Vector3(
+                             LevelController.offsetBetweenDoorsX, 0, 0);
+                        break;
+                    case "DoorPointRight":
+                        transform.position = transform.position + new Vector3(
+                            -LevelController.offsetBetweenDoorsX, 0, 0);
+                        break;
+                    case "DoorPointUp":
+                        transform.position = transform.position + new Vector3(
+                            0, LevelController.offsetBetweenDoorsY, 0);
+                        break;
+                    case "DoorPointDown":
+                        transform.position = transform.position + new Vector3(
+                            0, -LevelController.offsetBetweenDoorsY, 0);
+                        break;
+                }
             }
         }
         if(collision.tag == "SpawnZone")

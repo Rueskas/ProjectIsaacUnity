@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] private bool opened = false;
     private Animator animator;
     public enum DoorType { Normal, Treasure, Boss};
-    private DoorType doorType;
+    //private DoorType doorType;
+    private bool isOpened;
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        SetType(doorType);
     }
 
     public void SetType(DoorType type)
@@ -45,8 +44,16 @@ public class Door : MonoBehaviour
 
     public void Open()
     {
-        opened = true;
+        isOpened = true;
         animator.SetBool("Opened", true);
     }
+    public void SetIsOpened(bool isOpened)
+    {
+        this.isOpened = isOpened;
+    }
 
+    public bool GetIsOpened()
+    {
+        return isOpened;
+    }
 }

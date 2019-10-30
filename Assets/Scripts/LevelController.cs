@@ -65,6 +65,7 @@ public class LevelController : MonoBehaviour
         float maxDistance = 4f;
         for (int i = 0; i < shuffledDoorPoints.Length; i++)
         {
+            shuffledDoorPoints[i].SetType(Door.DoorType.Normal);
             if (i < numberOfRooms)
             {
                 yield return new WaitUntil(() => room.IsReady());
@@ -93,6 +94,8 @@ public class LevelController : MonoBehaviour
                             roomPointToInstantiate.transform.position, 
                                 Quaternion.identity);
                         newRoom.GetComponent<Room>().SetOriginDoor(position);
+                        newRoom.GetComponent<Room>().GetOriginDoorInRoom()
+                            .SetType(Door.DoorType.Normal);
                         StartCoroutine("Generate", newRoom);
                     }
                 }
@@ -112,6 +115,7 @@ public class LevelController : MonoBehaviour
     IEnumerator StartGame(GameObject startRoom)
     {
         yield return new WaitWhile(() => currentRooms < maxRooms);
+        GenerateBossRoom();
         GenerateTreasureRoom();
         startRoom.GetComponent<Room>().SetIsFocused(true);
         FindObjectOfType<Player>().SetActiveCollider(true);
@@ -145,6 +149,8 @@ public class LevelController : MonoBehaviour
                             roomPointToInstantiate.transform.position,
                                 Quaternion.identity);
                         newRoom.GetComponent<Room>().SetOriginDoor(position);
+                        newRoom.GetComponent<Room>().GetOriginDoorInRoom()
+                            .SetType(Door.DoorType.Treasure);
                         Door[] doorPointsOfNewRoom = 
                             newRoom.GetComponent<Room>().GetDoorPoints();
                         foreach (Door newDoor in doorPointsOfNewRoom)
@@ -157,6 +163,50 @@ public class LevelController : MonoBehaviour
             }
             count++;
         } while (treasureRoomInstantiated == false);
+    }
+
+    public void GenerateBossRoom()
+    {
+        List<Room> shuffledRooms =
+            rooms.OrderBy(room => Random.value).ToList();
+        int count = 0;
+        bool bossRoomInstantiated = false;
+        do
+        {
+            Room room = shuffledRooms[count];
+            Door[] doorPoints = room.GetDoorPoints();
+            foreach (Door door in doorPoints)
+            {
+                if (door.isActiveAndEnabled == false &&
+                        bossRoomInstantiated == false)
+                {
+                    door.gameObject.SetActive(true);
+                    door.SetType(Door.DoorType.Boss);
+                    GameObject roomPointToInstantiate =
+                        room.GetRoomPointFromDoorPoint(door.name);
+                    if (roomPointToInstantiate != null)
+                    {
+                        string position =
+                            door.gameObject.name.Replace("DoorPoint", "");
+
+                        GameObject newRoom = Instantiate(GetBossRoom(),
+                            roomPointToInstantiate.transform.position,
+                                Quaternion.identity);
+                        newRoom.GetComponent<Room>().SetOriginDoor(position);
+                        newRoom.GetComponent<Room>().GetOriginDoorInRoom()
+                            .SetType(Door.DoorType.Boss);
+                        Door[] doorPointsOfNewRoom =
+                            newRoom.GetComponent<Room>().GetDoorPoints();
+                        foreach (Door newDoor in doorPointsOfNewRoom)
+                        {
+                            newDoor.gameObject.SetActive(false);
+                        }
+                        bossRoomInstantiated = true;
+                    }
+                }
+            }
+            count++;
+        } while (bossRoomInstantiated == false);
 
 
     }

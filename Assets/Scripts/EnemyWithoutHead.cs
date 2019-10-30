@@ -49,7 +49,7 @@ public class EnemyWithoutHead : MonoBehaviour
     {
         if(live <= 0)
         {
-            transform.parent.SendMessage("EnemyDeath");
+            transform.parent.GetComponent<Room>().SendMessage("EnemyDeath");
             Destroy(this.gameObject);
         }
         if(rb2D.velocity == Vector2.zero)

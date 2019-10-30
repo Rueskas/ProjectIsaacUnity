@@ -11,7 +11,7 @@ public class Room : MonoBehaviour
     [SerializeField] private GameObject pointZero;
     Dictionary<string, GameObject> connectedDoorsRooms;
     private LevelController levelController;
-    private GameObject originDoorInRoom = null;
+    private Door originDoorInRoom = null;
     
     private int quantityEnemies = 0;
     private bool ready = false;
@@ -24,7 +24,8 @@ public class Room : MonoBehaviour
 
     void Start()
     {
-        bounds = GetComponentInChildren<BoxCollider2D>().bounds;
+        bounds = transform.GetChild(0).GetComponent<BoxCollider2D>().bounds;
+        print(bounds.size);
         connectedDoorsRooms = new Dictionary<string, GameObject>();
         for (int i = 0; i < doorPoints.Length; i++)
         {
@@ -33,7 +34,7 @@ public class Room : MonoBehaviour
         ready = true;
     }
 
-    public GameObject GetOriginDoorInRoom()
+    public Door GetOriginDoorInRoom()
     {
         return originDoorInRoom;
     }
@@ -73,24 +74,24 @@ public class Room : MonoBehaviour
         switch (position)
         {
             case "Left":
+                originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointRight").First();
                 doorPoints = doorPoints.Where(d => d.name != "DoorPointRight").ToArray();
                 nextRoomsPoints = nextRoomsPoints.Where(r => r.name != "RoomPointRight").ToArray();
-                originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointLeft").First().gameObject;
                 break;
             case "Down":
+                originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointUp").First();
                 doorPoints = doorPoints.Where(d => d.name != "DoorPointUp").ToArray();
                 nextRoomsPoints = nextRoomsPoints.Where(r => r.name != "RoomPointUp").ToArray();
-                originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointDown").First().gameObject;
                 break;
             case "Up":
+                originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointDown").First();
                 doorPoints = doorPoints.Where(d => d.name != "DoorPointDown").ToArray();
                 nextRoomsPoints = nextRoomsPoints.Where(r => r.name != "RoomPointDown").ToArray();
-                originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointUp").First().gameObject;
                 break;
             case "Right":
+                originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointLeft").First();
                 doorPoints = doorPoints.Where(d => d.name != "DoorPointLeft").ToArray();
                 nextRoomsPoints = nextRoomsPoints.Where(r => r.name != "RoomPointLeft").ToArray();
-                originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointRight").First().gameObject;
                 break;
         }
     }
@@ -106,7 +107,7 @@ public class Room : MonoBehaviour
             {
                 if(child.tag == "Enemy")
                 {
-                    child.gameObject.SetActive(false);
+                    child.gameObject.SetActive(true);
                 }
             }
         }
@@ -134,13 +135,20 @@ public class Room : MonoBehaviour
                 door.Open();
             }
         }
+        print(originDoorInRoom);
+        if (originDoorInRoom != null)
+        {
+            originDoorInRoom.GetComponent<Door>().Open();
+        }
     }
 
     public Vector2 RandomPointInBounds()
     {
         return new Vector2(
-            Random.Range(bounds.min.x, bounds.max.x),
-            Random.Range(bounds.min.y, bounds.max.y)
+            Random.Range(transform.position.x + bounds.min.x,
+                                transform.position.x + bounds.max.x),
+            Random.Range(transform.position.y + bounds.min.y,
+                            transform.position.y + bounds.max.y)
         );
     }
 
