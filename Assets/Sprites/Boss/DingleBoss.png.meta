@@ -557,6 +557,9 @@ TextureImporter:
   - first:
       213: 5740488223471321923
     second: DingleBoss_184
+  - first:
+      213: 5728108364446700829
+    second: DingleBoss_185
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -4521,6 +4524,27 @@ TextureImporter:
       bones: []
       spriteID: 347e6488b39f5c6428f4c5c3293d190b
       internalID: 5740488223471321923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_185
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 604
+        width: 57
+        height: 38
+      alignment: 9
+      pivot: {x: 0.44357413, y: 0.49411753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4103bbb2438fd2841a9cce596df62977
+      internalID: 5728108364446700829
       vertices: []
       indices: 
       edges: []
