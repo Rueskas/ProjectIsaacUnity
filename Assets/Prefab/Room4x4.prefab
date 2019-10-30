@@ -284,6 +284,7 @@ MonoBehaviour:
   - {fileID: 2577990352683695154}
   - {fileID: 5438460382911548040}
   - {fileID: 8577995284721935391}
+  pointZero: {fileID: 2273932955772644966}
 --- !u!50 &1162608809
 Rigidbody2D:
   serializedVersion: 4
@@ -511,7 +512,7 @@ GameObject:
   - component: {fileID: 7141464695967491137}
   m_Layer: 8
   m_Name: SpawnZone
-  m_TagString: Untagged
+  m_TagString: SpawnZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -741,7 +742,7 @@ PrefabInstance:
     - target: {fileID: 8002365945453097348, guid: e3b99175d0d143441a63deae20d10a59,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.547741
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8002365945453097348, guid: e3b99175d0d143441a63deae20d10a59,
         type: 3}
@@ -838,7 +839,7 @@ PrefabInstance:
     - target: {fileID: 8002365945453097348, guid: e3b99175d0d143441a63deae20d10a59,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.299353
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8002365945453097348, guid: e3b99175d0d143441a63deae20d10a59,
         type: 3}
@@ -935,7 +936,7 @@ PrefabInstance:
     - target: {fileID: 8002365945453097348, guid: e3b99175d0d143441a63deae20d10a59,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.547741
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8002365945453097348, guid: e3b99175d0d143441a63deae20d10a59,
         type: 3}
@@ -1194,7 +1195,7 @@ PrefabInstance:
     - target: {fileID: 8002365945453097348, guid: e3b99175d0d143441a63deae20d10a59,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.299353
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8002365945453097348, guid: e3b99175d0d143441a63deae20d10a59,
         type: 3}

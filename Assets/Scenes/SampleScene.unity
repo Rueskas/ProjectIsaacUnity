@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 253203314}
   - component: {fileID: 253203313}
   - component: {fileID: 253203312}
+  - component: {fileID: 253203315}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -252,6 +253,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &253203315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253203311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347e3b700373cdc4d8816b388034feec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &691430352
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,7 +334,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691430352}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0

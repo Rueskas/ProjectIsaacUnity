@@ -1,0 +1,4543 @@
+fileFormatVersion: 2
+guid: 276e852c0a2b9714390b6fd9bd8957e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7233789257145156325
+    second: DingleBoss_0
+  - first:
+      213: -740829457985996031
+    second: DingleBoss_1
+  - first:
+      213: 4847468121465003653
+    second: DingleBoss_2
+  - first:
+      213: -6655227379403564019
+    second: DingleBoss_3
+  - first:
+      213: 3328376535345846345
+    second: DingleBoss_4
+  - first:
+      213: -7154961947318280516
+    second: DingleBoss_5
+  - first:
+      213: -8216458187016950207
+    second: DingleBoss_6
+  - first:
+      213: 8489348442002126707
+    second: DingleBoss_7
+  - first:
+      213: -2281648404833082859
+    second: DingleBoss_8
+  - first:
+      213: 3111344667388077772
+    second: DingleBoss_9
+  - first:
+      213: -9194563680029303906
+    second: DingleBoss_10
+  - first:
+      213: 8286673880113267406
+    second: DingleBoss_11
+  - first:
+      213: 8108013833867687395
+    second: DingleBoss_12
+  - first:
+      213: -8259312942603588676
+    second: DingleBoss_13
+  - first:
+      213: -2291152439186347421
+    second: DingleBoss_14
+  - first:
+      213: -9119139900396910744
+    second: DingleBoss_15
+  - first:
+      213: 4622302867522997948
+    second: DingleBoss_16
+  - first:
+      213: 4630320654632378990
+    second: DingleBoss_17
+  - first:
+      213: -8713401180711936502
+    second: DingleBoss_18
+  - first:
+      213: -1236942572038102445
+    second: DingleBoss_19
+  - first:
+      213: 4467992010395273437
+    second: DingleBoss_20
+  - first:
+      213: 7065533277150180296
+    second: DingleBoss_21
+  - first:
+      213: -8463484488476691320
+    second: DingleBoss_22
+  - first:
+      213: 5284003662956008725
+    second: DingleBoss_23
+  - first:
+      213: 5106898403773493757
+    second: DingleBoss_24
+  - first:
+      213: 2161572220382858122
+    second: DingleBoss_25
+  - first:
+      213: 9215874330003236683
+    second: DingleBoss_26
+  - first:
+      213: -8830693633122114709
+    second: DingleBoss_27
+  - first:
+      213: 4256144049586471756
+    second: DingleBoss_28
+  - first:
+      213: 5171020825493752571
+    second: DingleBoss_29
+  - first:
+      213: 3397543987493849721
+    second: DingleBoss_30
+  - first:
+      213: 8052187785412151395
+    second: DingleBoss_31
+  - first:
+      213: 2112387466211084348
+    second: DingleBoss_32
+  - first:
+      213: -1460182723258596081
+    second: DingleBoss_33
+  - first:
+      213: 6346060472865061553
+    second: DingleBoss_34
+  - first:
+      213: 3015524010405148936
+    second: DingleBoss_35
+  - first:
+      213: 6780744802834332220
+    second: DingleBoss_36
+  - first:
+      213: -94121693011237470
+    second: DingleBoss_37
+  - first:
+      213: -3173260510729666906
+    second: DingleBoss_38
+  - first:
+      213: 8267736347702918325
+    second: DingleBoss_39
+  - first:
+      213: -8154740476834889949
+    second: DingleBoss_40
+  - first:
+      213: 5348301231581717701
+    second: DingleBoss_41
+  - first:
+      213: 4855907622705444422
+    second: DingleBoss_42
+  - first:
+      213: -7205118652472377769
+    second: DingleBoss_43
+  - first:
+      213: 2676572906906598777
+    second: DingleBoss_44
+  - first:
+      213: 1662083286569137658
+    second: DingleBoss_45
+  - first:
+      213: 363735902754593790
+    second: DingleBoss_46
+  - first:
+      213: 2735541776132168806
+    second: DingleBoss_47
+  - first:
+      213: -6760465109627500361
+    second: DingleBoss_48
+  - first:
+      213: 8356060372849614034
+    second: DingleBoss_49
+  - first:
+      213: -7520842830135574574
+    second: DingleBoss_50
+  - first:
+      213: 4661673236214917117
+    second: DingleBoss_51
+  - first:
+      213: 1411599083492461492
+    second: DingleBoss_52
+  - first:
+      213: 5527123308166793235
+    second: DingleBoss_53
+  - first:
+      213: 7555169835461586579
+    second: DingleBoss_54
+  - first:
+      213: 3308674079516697988
+    second: DingleBoss_55
+  - first:
+      213: -6332359896714666795
+    second: DingleBoss_56
+  - first:
+      213: -6376339383395150406
+    second: DingleBoss_57
+  - first:
+      213: 6119465196056119890
+    second: DingleBoss_58
+  - first:
+      213: 8764278597586295593
+    second: DingleBoss_59
+  - first:
+      213: -6315883560553200897
+    second: DingleBoss_60
+  - first:
+      213: -1106847438133301056
+    second: DingleBoss_61
+  - first:
+      213: 6896652816775065674
+    second: DingleBoss_62
+  - first:
+      213: 5163328903950322868
+    second: DingleBoss_63
+  - first:
+      213: 4287732048409154932
+    second: DingleBoss_64
+  - first:
+      213: 8772556996866126625
+    second: DingleBoss_65
+  - first:
+      213: -3576701662198836002
+    second: DingleBoss_66
+  - first:
+      213: -4655916791036482855
+    second: DingleBoss_67
+  - first:
+      213: 1122307660694149545
+    second: DingleBoss_68
+  - first:
+      213: 2965780797651446100
+    second: DingleBoss_69
+  - first:
+      213: -7336009874006499784
+    second: DingleBoss_70
+  - first:
+      213: 2877553320371100169
+    second: DingleBoss_71
+  - first:
+      213: -733379576468181168
+    second: DingleBoss_72
+  - first:
+      213: 8145900738430636337
+    second: DingleBoss_73
+  - first:
+      213: -303419643287787042
+    second: DingleBoss_74
+  - first:
+      213: 8973777018214724864
+    second: DingleBoss_75
+  - first:
+      213: -2415299228216684812
+    second: DingleBoss_76
+  - first:
+      213: 4245348097784011833
+    second: DingleBoss_77
+  - first:
+      213: 3730778399325694980
+    second: DingleBoss_78
+  - first:
+      213: 7416525132209270363
+    second: DingleBoss_79
+  - first:
+      213: 5884714465619807066
+    second: DingleBoss_80
+  - first:
+      213: -7625996644081396523
+    second: DingleBoss_81
+  - first:
+      213: 8340065036613540983
+    second: DingleBoss_82
+  - first:
+      213: -6732068749283233112
+    second: DingleBoss_83
+  - first:
+      213: -4068909989923615345
+    second: DingleBoss_84
+  - first:
+      213: -4538017831089814231
+    second: DingleBoss_85
+  - first:
+      213: -3643889112997925136
+    second: DingleBoss_86
+  - first:
+      213: 7046063790957330642
+    second: DingleBoss_87
+  - first:
+      213: -4412754980938189969
+    second: DingleBoss_88
+  - first:
+      213: 4942526164168219505
+    second: DingleBoss_89
+  - first:
+      213: -1105474916907155758
+    second: DingleBoss_90
+  - first:
+      213: -4808258754563167286
+    second: DingleBoss_91
+  - first:
+      213: 5199773177591271323
+    second: DingleBoss_92
+  - first:
+      213: -7938972390604532702
+    second: DingleBoss_93
+  - first:
+      213: -9023339172397656184
+    second: DingleBoss_94
+  - first:
+      213: 7884361813691119159
+    second: DingleBoss_95
+  - first:
+      213: -4820857979400713986
+    second: DingleBoss_96
+  - first:
+      213: 1369344855687575729
+    second: DingleBoss_97
+  - first:
+      213: 978153328866781877
+    second: DingleBoss_98
+  - first:
+      213: -1522179899874409837
+    second: DingleBoss_99
+  - first:
+      213: -4165727847144784131
+    second: DingleBoss_100
+  - first:
+      213: 7867746013874692226
+    second: DingleBoss_101
+  - first:
+      213: -1912660714827183788
+    second: DingleBoss_102
+  - first:
+      213: -9126678315160972605
+    second: DingleBoss_103
+  - first:
+      213: 3100187253984200673
+    second: DingleBoss_104
+  - first:
+      213: 2006051374617752312
+    second: DingleBoss_105
+  - first:
+      213: -7638700001611417834
+    second: DingleBoss_106
+  - first:
+      213: -6237247797276388011
+    second: DingleBoss_107
+  - first:
+      213: -5083531286047633871
+    second: DingleBoss_108
+  - first:
+      213: -6722988861767138170
+    second: DingleBoss_109
+  - first:
+      213: -1724305000368136893
+    second: DingleBoss_110
+  - first:
+      213: 1392501804847903570
+    second: DingleBoss_111
+  - first:
+      213: -8367812219134617412
+    second: DingleBoss_112
+  - first:
+      213: 8900888531285781313
+    second: DingleBoss_113
+  - first:
+      213: -7725772778726994919
+    second: DingleBoss_114
+  - first:
+      213: -774262177913635996
+    second: DingleBoss_115
+  - first:
+      213: 2773720507264563380
+    second: DingleBoss_116
+  - first:
+      213: 838933575854563209
+    second: DingleBoss_117
+  - first:
+      213: 6232509811023838651
+    second: DingleBoss_118
+  - first:
+      213: -8009251057841279837
+    second: DingleBoss_119
+  - first:
+      213: -8550001219376594517
+    second: DingleBoss_120
+  - first:
+      213: 6831003352842884612
+    second: DingleBoss_121
+  - first:
+      213: -8432682828089577472
+    second: DingleBoss_122
+  - first:
+      213: 6751064783234288691
+    second: DingleBoss_123
+  - first:
+      213: -9001261490902671073
+    second: DingleBoss_124
+  - first:
+      213: 2795968515468605040
+    second: DingleBoss_125
+  - first:
+      213: -2869355195304684004
+    second: DingleBoss_126
+  - first:
+      213: 962091358516978197
+    second: DingleBoss_127
+  - first:
+      213: 7753797207745017270
+    second: DingleBoss_128
+  - first:
+      213: -534059967488596433
+    second: DingleBoss_129
+  - first:
+      213: -6691370960117569024
+    second: DingleBoss_130
+  - first:
+      213: 4298988940645951336
+    second: DingleBoss_131
+  - first:
+      213: -8634865543227196330
+    second: DingleBoss_132
+  - first:
+      213: 2739156887085919106
+    second: DingleBoss_133
+  - first:
+      213: -9156865173174017050
+    second: DingleBoss_134
+  - first:
+      213: -6575822438064081502
+    second: DingleBoss_135
+  - first:
+      213: -4349337317206234072
+    second: DingleBoss_136
+  - first:
+      213: 3484572918687175029
+    second: DingleBoss_137
+  - first:
+      213: -7604102934519219023
+    second: DingleBoss_138
+  - first:
+      213: -368070528938101064
+    second: DingleBoss_139
+  - first:
+      213: 7497458131899242986
+    second: DingleBoss_140
+  - first:
+      213: -694831429162806074
+    second: DingleBoss_141
+  - first:
+      213: -190494462441184255
+    second: DingleBoss_142
+  - first:
+      213: -735810339153436543
+    second: DingleBoss_143
+  - first:
+      213: -6302135740446842420
+    second: DingleBoss_144
+  - first:
+      213: 768128660696286227
+    second: DingleBoss_145
+  - first:
+      213: 841461976217678384
+    second: DingleBoss_146
+  - first:
+      213: 5147178192160894528
+    second: DingleBoss_147
+  - first:
+      213: 2236684498360364656
+    second: DingleBoss_148
+  - first:
+      213: -7012639225301781688
+    second: DingleBoss_149
+  - first:
+      213: 3137639659189154966
+    second: DingleBoss_150
+  - first:
+      213: -3193017666127731568
+    second: DingleBoss_151
+  - first:
+      213: -5707919802724384385
+    second: DingleBoss_152
+  - first:
+      213: -3733227123578052556
+    second: DingleBoss_153
+  - first:
+      213: 5888631611646336753
+    second: DingleBoss_154
+  - first:
+      213: 2402886420033143188
+    second: DingleBoss_155
+  - first:
+      213: 8740551359382359681
+    second: DingleBoss_156
+  - first:
+      213: -1907483237649080773
+    second: DingleBoss_157
+  - first:
+      213: 3915020223694130420
+    second: DingleBoss_158
+  - first:
+      213: -5412446811350740061
+    second: DingleBoss_159
+  - first:
+      213: -1645276934210738963
+    second: DingleBoss_160
+  - first:
+      213: 8889852424160724752
+    second: DingleBoss_161
+  - first:
+      213: 7243943462769870034
+    second: DingleBoss_162
+  - first:
+      213: 2155895723459494752
+    second: DingleBoss_163
+  - first:
+      213: 6849459157982157390
+    second: DingleBoss_164
+  - first:
+      213: 3420902426027548537
+    second: DingleBoss_165
+  - first:
+      213: 5893350528624017650
+    second: DingleBoss_166
+  - first:
+      213: 8618237432089446256
+    second: DingleBoss_167
+  - first:
+      213: -5682503605762691536
+    second: DingleBoss_168
+  - first:
+      213: -6106917426451772465
+    second: DingleBoss_169
+  - first:
+      213: 8802552765319336649
+    second: DingleBoss_170
+  - first:
+      213: -2272766342801524296
+    second: DingleBoss_171
+  - first:
+      213: -2992613739686062405
+    second: DingleBoss_172
+  - first:
+      213: 429708230388492525
+    second: DingleBoss_173
+  - first:
+      213: -7521748593420965565
+    second: DingleBoss_174
+  - first:
+      213: -6578314420026572569
+    second: DingleBoss_175
+  - first:
+      213: -249160265739064191
+    second: DingleBoss_176
+  - first:
+      213: 5683933817618676092
+    second: DingleBoss_177
+  - first:
+      213: -9184479813159160921
+    second: DingleBoss_178
+  - first:
+      213: -434411121010451403
+    second: DingleBoss_179
+  - first:
+      213: -7702949316836438216
+    second: DingleBoss_180
+  - first:
+      213: -8989832555196714438
+    second: DingleBoss_181
+  - first:
+      213: 940763974118232701
+    second: DingleBoss_182
+  - first:
+      213: -8401762975663630437
+    second: DingleBoss_183
+  - first:
+      213: 5740488223471321923
+    second: DingleBoss_184
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DingleBoss_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 669
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f284a631657d7419ac68a335b71224
+      internalID: 7233789257145156325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 669
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f36309fb3a6bd458b5369f87cbd1fb
+      internalID: -740829457985996031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 669
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4340f7fcad3eee043ba4253ba02ac8dc
+      internalID: 4847468121465003653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 669
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ba2f1a698ef90449f71795fdae3de8
+      internalID: -6655227379403564019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 669
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f376bb56c0bda24aaf232185a2b8b3b
+      internalID: 3328376535345846345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 669
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe852c8e7f31024ba92f0dcaa10d989
+      internalID: -7154961947318280516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 669
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5363a995d5272e4280ad0b66d44a9c2
+      internalID: -8216458187016950207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_7
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 669
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0a6214d636b434591c2c9372cbdc8d
+      internalID: 8489348442002126707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_8
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 669
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40994195badf2f9448a28409c1767cf2
+      internalID: -2281648404833082859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_9
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 669
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e8b7dd7b18ce644bc37255fc816f1f
+      internalID: 3111344667388077772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_10
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 669
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f897466cb9a3ff44c8e15fe14d2a7146
+      internalID: -9194563680029303906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_11
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 669
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4b8b93c1f8cc149bd696633ce03f08
+      internalID: 8286673880113267406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_12
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 669
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e520a7eaef7a644cbe6e96d6d3967c1
+      internalID: 8108013833867687395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_13
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 669
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c5085b76940a744a2691f0f870f259
+      internalID: -8259312942603588676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 605
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57d0f486a44e5544a49028796aea245
+      internalID: -2291152439186347421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 605
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61112a76bb2cd0646afda7c5e1ba1be2
+      internalID: -9119139900396910744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 635
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2237d68622e0848af434b822913c3a
+      internalID: 4622302867522997948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_17
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 605
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86232adf88632894c8cb09ab0c012ebf
+      internalID: 4630320654632378990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_18
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 636
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53435d0a406559b4394901178c1a0fd3
+      internalID: -8713401180711936502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 605
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0845c91ad3a2447469321e9501700d43
+      internalID: -1236942572038102445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_20
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 604
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dfd069ed747d64fa79eb4fdf570161
+      internalID: 4467992010395273437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_21
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 604
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16f674b3ade4eb48ac9279022e891ca
+      internalID: 7065533277150180296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_22
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 605
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70e39fd10ac662409a35eb51e22e7ad
+      internalID: -8463484488476691320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_23
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 605
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481bf58cf2f631c48849296a2af8da2c
+      internalID: 5284003662956008725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_24
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 635
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de50bb1590b05e43b7acd4f1cffb77c
+      internalID: 5106898403773493757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_25
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 605
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ff7da111762ee4c90b264b733123fd
+      internalID: 2161572220382858122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_26
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 636
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7a90d9afbff8e40ba71d41840b7216
+      internalID: 9215874330003236683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_27
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 605
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a721280036de23f4f8b568b1f07116ae
+      internalID: -8830693633122114709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_28
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 604
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3870d1f247b93a4419bea1b1f225af8d
+      internalID: 4256144049586471756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_29
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 604
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c65900d54924004795d50b4e9ce6d46
+      internalID: 5171020825493752571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_30
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 605
+        width: 56
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80b74f9042b04d4ca3990add08f4bf4
+      internalID: 3397543987493849721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_31
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 605
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73fca47745c17048a72acbf7d7ac394
+      internalID: 8052187785412151395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_32
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 622
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60d2fb1cb121f148bafffecd534e76b
+      internalID: 2112387466211084348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_33
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 605
+        width: 56
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3500f529d58ec804eb7b76b646186a24
+      internalID: -1460182723258596081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_34
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 605
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2f2bfd5dc94f14aba5747547284223
+      internalID: 6346060472865061553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_35
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 622
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22492d9c5ed7e54aaa45c66a4989027
+      internalID: 3015524010405148936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_36
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 541
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea0493c43805cb40aa6fbd90c692b1c
+      internalID: 6780744802834332220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_37
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 576
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4080201efc82bd40843a35219744fd8
+      internalID: -94121693011237470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_38
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 576
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8235fe8a323de54d9fb229ed568e489
+      internalID: -3173260510729666906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_39
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 541
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3654ab01523b94d448451b0fd32735a9
+      internalID: 8267736347702918325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_40
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 577
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba07383f5aff44f499996420d2233cd0
+      internalID: -8154740476834889949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_41
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 575
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d94737ca832314da00c7d6a2b4d7a3
+      internalID: 5348301231581717701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_42
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 541
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930ca4acc897390438c5fac96aef5554
+      internalID: 4855907622705444422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_43
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 575
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3b5972b8d6b8042987de7953dd6194
+      internalID: -7205118652472377769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_44
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 577
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4ee2b6a0e2a2e42a43b34f982368ee
+      internalID: 2676572906906598777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_45
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 541
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae0985cf724c6547af796806b6b3c3a
+      internalID: 1662083286569137658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_46
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 540
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c6a45fffd5d9e4ea66b57e112a4663
+      internalID: 363735902754593790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_47
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 541
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df859b5a4e2c8b24c89c9c9bf90cc81a
+      internalID: 2735541776132168806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_48
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 576
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9510e5f8a765741b133ee331a84b66
+      internalID: -6760465109627500361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_49
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 576
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bcced493df59a4b8525dbbda64da22
+      internalID: 8356060372849614034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_50
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 541
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7ca101f003c9f4bb6bca8c5ff508dc
+      internalID: -7520842830135574574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_51
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 577
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049a5070dcbdce9469948c9d021ddd68
+      internalID: 4661673236214917117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_52
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 575
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75dda211e562974784745ee9d71c85f
+      internalID: 1411599083492461492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_53
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 541
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e493952e2861e134c83566dc326dcf09
+      internalID: 5527123308166793235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_54
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 575
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a35de79249d6dd4b8e4b46339cc03a2
+      internalID: 7555169835461586579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_55
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 577
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba1cc402d24b894a8854aa1f234f6d7
+      internalID: 3308674079516697988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_56
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 541
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a3c2944c703e24ea28ee8c89cfc23c
+      internalID: -6332359896714666795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_57
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 540
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7756d9a9c0fabc84094b9d3a2b1890cf
+      internalID: -6376339383395150406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_58
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 541
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4f9a97dee2e4c488c7f5c523d5ffac
+      internalID: 6119465196056119890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_59
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 560
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012a1c113245dfd4680513c177017aac
+      internalID: 8764278597586295593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_60
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 541
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1403200bc2b6cb0478640b1a20fea3a6
+      internalID: -6315883560553200897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_61
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 541
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcba9e835677014cb860d1102a488dc
+      internalID: -1106847438133301056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_62
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 541
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddec0dfd8700b64f856cf7cec685997
+      internalID: 6896652816775065674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_63
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 560
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8321d07a7935aa47b9fd5b8c66c35a7
+      internalID: 5163328903950322868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_64
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 541
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7f81df2d3f4324caf39af6ee6bfd33
+      internalID: 4287732048409154932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_65
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 541
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8674f0ff8467dd94e91d5e1882e1ec71
+      internalID: 8772556996866126625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_66
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 476
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8ececb5c5b01645bf91870c0291594
+      internalID: -3576701662198836002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_67
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 476
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f60420cf606f434f823f42739d6c62f
+      internalID: -4655916791036482855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_68
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 476
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602490ee7810bc54e895c011cd94aed7
+      internalID: 1122307660694149545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_69
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 476
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab2454a73faf82418903ddd380fe26a
+      internalID: 2965780797651446100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_70
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 476
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a694ea8a38716348a616fe635c93999
+      internalID: -7336009874006499784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_71
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 476
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357a41c9b9748ea4db9f261b02024480
+      internalID: 2877553320371100169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_72
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 476
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deae5520844b07c418bd04e3b70c74cd
+      internalID: -733379576468181168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_73
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 476
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcfdfc3fe5994a4eb585193c57ccbb1
+      internalID: 8145900738430636337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_74
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 476
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3717bd7ec3cee4aaac99fb5e68731c
+      internalID: -303419643287787042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_75
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 476
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469b51d84ebc3e44581e001947790577
+      internalID: 8973777018214724864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_76
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 413
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f414d3f06d5bab749bb24f1f1986d795
+      internalID: -2415299228216684812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_77
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 413
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46599107eded0b542bb4ba6ce96c40e9
+      internalID: 4245348097784011833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_78
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 413
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47183e05b68f9442a890fb0420fd8c0
+      internalID: 3730778399325694980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_79
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 413
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90a61d36448e3246ad75ebc41585384
+      internalID: 7416525132209270363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_80
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 413
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaeca60b85d50f4dac827ee610c7588
+      internalID: 5884714465619807066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_81
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 413
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946bcbbbebf63a343a30778fc194ba67
+      internalID: -7625996644081396523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_82
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 413
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f3e8f192d7f554c8e635fefd086b1b
+      internalID: 8340065036613540983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_83
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 413
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d8454f5fa517d45a1ff3cfae8b17a3
+      internalID: -6732068749283233112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_84
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 413
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da489794fd209e4290cc09ae6b8f812
+      internalID: -4068909989923615345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_85
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 413
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9a0632f04fcd7428f40f023a3a90ed
+      internalID: -4538017831089814231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_86
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 413
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28edba74549dd7438b218676307fbb9
+      internalID: -3643889112997925136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_87
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 413
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3324d39242bf29c44880f6227a085513
+      internalID: 7046063790957330642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_88
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 349
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2404cade0f6974fa271facc45ec2e1
+      internalID: -4412754980938189969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_89
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 349
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774972bb5e69416429ffd9245424f41d
+      internalID: 4942526164168219505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_90
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 349
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef660c032aa70a4ea09b53f771fe461
+      internalID: -1105474916907155758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_91
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 349
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5272efcfe6734458b6276ba2d8a270
+      internalID: -4808258754563167286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_92
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 349
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f87ec4532ce47c45a44a125d3e590a0
+      internalID: 5199773177591271323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_93
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 349
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231e475ee7f6cd34f978089d617aa59a
+      internalID: -7938972390604532702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_94
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 349
+        width: 45
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1734e417a8d222d4694d135f9f9caa11
+      internalID: -9023339172397656184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_95
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 347
+        width: 49
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a973f86f760e6440bcaeceebaaf75a7
+      internalID: 7884361813691119159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_96
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 349
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930f8490a5e049449bbd65e3f4ceed43
+      internalID: -4820857979400713986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_97
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 349
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a702bcc50072f4e8ca37bd2e3c70a3
+      internalID: 1369344855687575729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_98
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 349
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2832f6e9e6cabe2469b8d4b316935b38
+      internalID: 978153328866781877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_99
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 349
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b62d8ef7558b2e43b743afb9338df08
+      internalID: -1522179899874409837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_100
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 349
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87232247ce00913429ea0d389ebed7ad
+      internalID: -4165727847144784131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_101
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 349
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfd3284548e6c344a0277efbada7246
+      internalID: 7867746013874692226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_102
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 349
+        width: 45
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb36b59df13ea547b30da955b3bbb35
+      internalID: -1912660714827183788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_103
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 347
+        width: 49
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684ff9040f2badc4ca66a0cf4cc46698
+      internalID: -9126678315160972605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_104
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 283
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67308df6caa8dce44b0da22ff3957d27
+      internalID: 3100187253984200673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_105
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 284
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da742ac9023206a4abc993bd374e6d91
+      internalID: 2006051374617752312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_106
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 283
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82946aadd2da6ac4eafdfd573b01663e
+      internalID: -7638700001611417834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_107
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 285
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5afb0cfce351843b3d4807bf06c35f
+      internalID: -6237247797276388011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_108
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 284
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861ea05e2eb41f44d9ee6a64b9176868
+      internalID: -5083531286047633871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_109
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 284
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d91d748527849148ae9438f3455ba0b
+      internalID: -6722988861767138170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_110
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 283
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d61f392bee3df488a8a738077dad48
+      internalID: -1724305000368136893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_111
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 285
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a7db1dfed39394e8ea4b5c4795fd62
+      internalID: 1392501804847903570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_112
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 284
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15aa27f6e5af6e641b359947eab11ed3
+      internalID: -8367812219134617412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_113
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 284
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6abe1bd9facb040849394d01b4b131
+      internalID: 8900888531285781313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_114
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 283
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667acaa1ee40b3c43b25b3fff9c63e6e
+      internalID: -7725772778726994919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_115
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 285
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5274b4ff4c131448f8017bd7b46091
+      internalID: -774262177913635996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 284
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545e15ac37582804d8451be8dc4dd987
+      internalID: 2773720507264563380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_117
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 285
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468ea3cfe3c198d4ab71e24716ae1a71
+      internalID: 838933575854563209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_118
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 284
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c51f1c0c34a6b142a7ad2b83ab38c7f
+      internalID: 6232509811023838651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_119
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 284
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f251e4884e33c469535e69cb2383df
+      internalID: -8009251057841279837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_120
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 284
+        width: 53
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a44a4c6ee7251c40ad0ccbe55869229
+      internalID: -8550001219376594517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_121
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 283
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ff8a718ba3321429bb889ce17e193d
+      internalID: 6831003352842884612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_122
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 284
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c01c4f9f72ace7469c9839131122e97
+      internalID: -8432682828089577472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_123
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 283
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a85308bfb1dfd840984958dc0c18338
+      internalID: 6751064783234288691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_124
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 285
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3595654fb6128468d577fda8a5e3f9
+      internalID: -9001261490902671073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_125
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 284
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2e51800701fae44ad3b3ac88c630ec
+      internalID: 2795968515468605040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_126
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 284
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be898397917c7e748b10c487b282c1cf
+      internalID: -2869355195304684004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_127
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 283
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0de6dff2220b14a89029d2eea76bd2
+      internalID: 962091358516978197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_128
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 285
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3b1cef4791c5e4980fad83c2c60311
+      internalID: 7753797207745017270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_129
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 284
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818ccab6830527c41a19404062067df0
+      internalID: -534059967488596433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_130
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 284
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e62a15e41d28b47ab6b4e1df5a9e7c
+      internalID: -6691370960117569024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_131
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 283
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fa7b275440c3c4a8dcd6018014b07d
+      internalID: 4298988940645951336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_132
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 285
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b941c2d4458a5eb418d831e8ba213411
+      internalID: -8634865543227196330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_133
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 284
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897c313404d70794ba2c0d3242bf3ea2
+      internalID: 2739156887085919106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_134
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 285
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42db7de060e71fb4bab24342c40ff4e1
+      internalID: -9156865173174017050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_135
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 284
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8060ccc4efb1d4148a4933152e8aff0f
+      internalID: -6575822438064081502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_136
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 284
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d316d13d7af984094995fbea6fb598
+      internalID: -4349337317206234072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_137
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 284
+        width: 53
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cce0fa1eb24f1f408759174366187df
+      internalID: 3484572918687175029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_138
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 218
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4fa8bbd11a4dd41a430abbcc534794
+      internalID: -7604102934519219023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_139
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 213
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055783841323ae145a95d61155b88d43
+      internalID: -368070528938101064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_140
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 214
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ce6df5b8112834095d4e35a88a3f10
+      internalID: 7497458131899242986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_141
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 227
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60405b864fa43464b8a7034dcd048bed
+      internalID: -694831429162806074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_142
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 224
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a60cd518db762d4a99361d7082e2626
+      internalID: -190494462441184255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_143
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 211
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d269d8c4a1a5e4993c3f23a801eb0d
+      internalID: -735810339153436543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_144
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 213
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2954358e562d147ae2db97f1a32a77
+      internalID: -6302135740446842420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_145
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 216
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd7b815b7c81a44e92d54bc71480751
+      internalID: 768128660696286227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_146
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 227
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9b4945e4c19644283cbcc71cfb5af7
+      internalID: 841461976217678384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_147
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 218
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5236e3ac7add141885cc0a7c418068
+      internalID: 5147178192160894528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_148
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 213
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e50a886ffa434846870ef7fad282b09
+      internalID: 2236684498360364656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_149
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 214
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a29be63d258677458709ca25fc822f4
+      internalID: -7012639225301781688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_150
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 227
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a9b4a196eda5b44a7d441fd7a593cc
+      internalID: 3137639659189154966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_151
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 224
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da53fe7e8dcd484799940327ea27d6e
+      internalID: -3193017666127731568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_152
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 211
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89c67fc567b0044eafaf2d934eaaab8
+      internalID: -5707919802724384385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_153
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 213
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e354932f7d5864ca833e41af28daaf
+      internalID: -3733227123578052556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_154
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 216
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e45e1a717496dd4f9957525a4358be4
+      internalID: 5888631611646336753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_155
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 227
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3a25e2e1c8f1e448e85dcd5d394d86
+      internalID: 2402886420033143188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_156
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 219
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc815b5220215f74aaa5309f723ddbd7
+      internalID: 8740551359382359681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_157
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 220
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e9d2f32338adf4bbe7ad29ffdd4792
+      internalID: -1907483237649080773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_158
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 223
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dd8d5eb427fb14aab1fab5fbf91cf4
+      internalID: 3915020223694130420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_159
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 219
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaf3a2723ac4684784bd70899d2fb7d
+      internalID: -5412446811350740061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_160
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 219
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8090064bf50beb4590ead4a87acd59b
+      internalID: -1645276934210738963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_161
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 220
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0da1768bef2bc340b8298cf85a8274f
+      internalID: 8889852424160724752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_162
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 223
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66bfc659d353824abed837c5edb6229
+      internalID: 7243943462769870034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_163
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 219
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292b249d144843243979fe575f1c3a08
+      internalID: 2155895723459494752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_164
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 167
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6d2ed0d0422264aaf2786ebfdfb4eb
+      internalID: 6849459157982157390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_165
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 166
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c783bc5af15027e408e3ef07ef0ffbd2
+      internalID: 3420902426027548537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_166
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 166
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4e99bd62e15024d97774c5c3ed5de8
+      internalID: 5893350528624017650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_167
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 162
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e856043f3155a498d45b645e444439
+      internalID: 8618237432089446256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_168
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 161
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13d4b6c00225e340bb3b1ec074deff4
+      internalID: -5682503605762691536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_169
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 161
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798e81cfe40d95c4eb0beb4c60a93232
+      internalID: -6106917426451772465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_170
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 131
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc924cf5abe1ec84a966d3ed1f25ad68
+      internalID: 8802552765319336649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_171
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 131
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d690c383597c24b89b5856d4e8c174
+      internalID: -2272766342801524296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_172
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 126
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5458ef53961ee6d419689bfbb6135651
+      internalID: -2992613739686062405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_173
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 126
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574bd475f2889cd409d99c29e5ec58ad
+      internalID: 429708230388492525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_174
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def91a2e8c2037449a60ff3fecfa8ee9
+      internalID: -7521748593420965565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_175
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 25
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce31d1515f8d4a245a8648dcb04515ea
+      internalID: -6578314420026572569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_176
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 22
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfe04576555f9e40a31c7e08487aede
+      internalID: -249160265739064191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_177
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 27
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58040dc549110b54f8e312801a5aa672
+      internalID: 5683933817618676092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_178
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 15
+        width: 119
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6767a8bbf3082f44880d0b6382eb2466
+      internalID: -9184479813159160921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_179
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 44
+        width: 93
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c95dff069398084e85bcf30d97bec7b
+      internalID: -434411121010451403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_180
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 49
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b597497386bd346a6c9a8a86550cd2
+      internalID: -7702949316836438216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_181
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 38
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fb4780aa79e9a42a59ba192f5087cc
+      internalID: -8989832555196714438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_182
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 7
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d20cc1236105d549a3564d75201b700
+      internalID: 940763974118232701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_183
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 7
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad2690b6a410e14e925fac90b4dfb59
+      internalID: -8401762975663630437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DingleBoss_184
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 24
+        width: 130
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347e6488b39f5c6428f4c5c3293d190b
+      internalID: 5740488223471321923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

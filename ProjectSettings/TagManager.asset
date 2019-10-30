@@ -7,6 +7,8 @@ TagManager:
   - Tear
   - Room
   - Door
+  - SpawnZone
+  - Enemy
   layers:
   - Default
   - TransparentFX

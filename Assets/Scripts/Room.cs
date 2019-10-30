@@ -8,10 +8,11 @@ public class Room : MonoBehaviour
     private Bounds bounds;
     [SerializeField] GameObject[] nextRoomsPoints;
     [SerializeField] Door[] doorPoints;
+    [SerializeField] private GameObject pointZero;
     Dictionary<string, GameObject> connectedDoorsRooms;
     private LevelController levelController;
     private GameObject originDoorInRoom = null;
-    private GameObject pointZero;
+    
     private int quantityEnemies = 0;
     private bool ready = false;
     private bool isFocused = false;
@@ -67,7 +68,7 @@ public class Room : MonoBehaviour
         }
     }
     
-    public void SetOriginDoor(string position, GameObject doorOutRoom)
+    public void SetOriginDoor(string position)
     {
         switch (position)
         {
@@ -75,25 +76,21 @@ public class Room : MonoBehaviour
                 doorPoints = doorPoints.Where(d => d.name != "DoorPointRight").ToArray();
                 nextRoomsPoints = nextRoomsPoints.Where(r => r.name != "RoomPointRight").ToArray();
                 originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointLeft").First().gameObject;
-                originDoorInRoom.GetComponent<Door>().SetType(Door.DoorType.Normal);
                 break;
             case "Down":
                 doorPoints = doorPoints.Where(d => d.name != "DoorPointUp").ToArray();
                 nextRoomsPoints = nextRoomsPoints.Where(r => r.name != "RoomPointUp").ToArray();
                 originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointDown").First().gameObject;
-                originDoorInRoom.GetComponent<Door>().SetType(Door.DoorType.Normal);
                 break;
             case "Up":
                 doorPoints = doorPoints.Where(d => d.name != "DoorPointDown").ToArray();
                 nextRoomsPoints = nextRoomsPoints.Where(r => r.name != "RoomPointDown").ToArray();
                 originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointUp").First().gameObject;
-                originDoorInRoom.GetComponent<Door>().SetType(Door.DoorType.Normal);
                 break;
             case "Right":
                 doorPoints = doorPoints.Where(d => d.name != "DoorPointLeft").ToArray();
                 nextRoomsPoints = nextRoomsPoints.Where(r => r.name != "RoomPointLeft").ToArray();
                 originDoorInRoom = doorPoints.Where(d => d.name == "DoorPointRight").First().gameObject;
-                originDoorInRoom.GetComponent<Door>().SetType(Door.DoorType.Normal);
                 break;
         }
     }
@@ -102,11 +99,14 @@ public class Room : MonoBehaviour
     {
         if(quantityEnemies > 0)
         {
-            foreach(GameObject child in transform)
+
+            Transform[] allChildren = 
+                GetComponentsInChildren<Transform>(true);
+            foreach (Transform child in allChildren)
             {
                 if(child.tag == "Enemy")
                 {
-                    child.SetActive(true);
+                    child.gameObject.SetActive(false);
                 }
             }
         }

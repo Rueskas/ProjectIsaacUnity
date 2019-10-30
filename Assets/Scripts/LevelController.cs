@@ -11,10 +11,10 @@ public class LevelController : MonoBehaviour
     private int currentRooms;
     private List<Room> rooms;
     private GameController game;
-    public static float offsetBetweenDoorsY = 3f;
-    public static float offsetBetweenDoorsX = 3f;
-    public static float offsetBetweenCameraPointsY = 3.5f;
-    public static float offsetBetweenCameraPointsX = 3.5f;
+    public static float offsetBetweenDoorsY = 3.3f;
+    public static float offsetBetweenDoorsX = -3.7f;
+    public static float offsetBetweenCameraPointsY = 6.47f;
+    public static float offsetBetweenCameraPointsX = -10.11f;
     void Start()
     {
         rooms = new List<Room>();
@@ -92,9 +92,7 @@ public class LevelController : MonoBehaviour
                         GameObject newRoom = Instantiate(GetNormalRoom(),
                             roomPointToInstantiate.transform.position, 
                                 Quaternion.identity);
-                        newRoom.GetComponent<Room>()
-                            .SetOriginDoor(position, 
-                                shuffledDoorPoints[i].gameObject);
+                        newRoom.GetComponent<Room>().SetOriginDoor(position);
                         StartCoroutine("Generate", newRoom);
                     }
                 }
@@ -113,8 +111,54 @@ public class LevelController : MonoBehaviour
 
     IEnumerator StartGame(GameObject startRoom)
     {
-        yield return new WaitWhile(() => currentRooms != maxRooms);
+        yield return new WaitWhile(() => currentRooms < maxRooms);
+        GenerateTreasureRoom();
         startRoom.GetComponent<Room>().SetIsFocused(true);
+        FindObjectOfType<Player>().SetActiveCollider(true);
+    }
+
+    public void GenerateTreasureRoom()
+    {
+        List<Room> shuffledRooms = 
+            rooms.OrderBy(room => Random.value).ToList();
+        int count = 0;
+        bool treasureRoomInstantiated = false;
+        do
+        {
+            Room room = shuffledRooms[count];
+            Door[] doorPoints = room.GetDoorPoints();
+            foreach (Door door in doorPoints)
+            {
+                if (door.isActiveAndEnabled == false && 
+                        treasureRoomInstantiated == false)
+                {
+                    door.gameObject.SetActive(true);
+                    door.SetType(Door.DoorType.Treasure);
+                    GameObject roomPointToInstantiate =
+                        room.GetRoomPointFromDoorPoint(door.name);
+                    if (roomPointToInstantiate != null)
+                    {
+                        string position =
+                            door.gameObject.name.Replace("DoorPoint", "");
+
+                        GameObject newRoom = Instantiate(GetTreasureRoom(),
+                            roomPointToInstantiate.transform.position,
+                                Quaternion.identity);
+                        newRoom.GetComponent<Room>().SetOriginDoor(position);
+                        Door[] doorPointsOfNewRoom = 
+                            newRoom.GetComponent<Room>().GetDoorPoints();
+                        foreach (Door newDoor in doorPointsOfNewRoom)
+                        {
+                            newDoor.gameObject.SetActive(false);
+                        }
+                        treasureRoomInstantiated = true;
+                    }
+                }
+            }
+            count++;
+        } while (treasureRoomInstantiated == false);
+
+
     }
 
     public GameObject GetNormalRoom()
@@ -124,12 +168,12 @@ public class LevelController : MonoBehaviour
 
     public GameObject GetTreasureRoom()
     {
-        return roomsPrefabs[1];
+        return roomsPrefabs[2];
     }
 
     public GameObject GetBossRoom()
     {
-        return roomsPrefabs[2];
+        return roomsPrefabs[1];
     }
 
     public GameObject GetRandomEnemy()

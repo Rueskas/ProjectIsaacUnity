@@ -150,12 +150,16 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void SetActiveCollider(bool isActive)
+    {
+        print("LLEGA");
+        GetComponent<Collider2D>().enabled = isActive;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Door")
         {
-            Camera camera = FindObjectOfType<Camera>();
             switch (collision.name)
             {
                 case "DoorPointLeft":
@@ -175,6 +179,16 @@ public class Player : MonoBehaviour
                         0, -LevelController.offsetBetweenDoorsY,0);
                     break;
             }
+        }
+        if(collision.tag == "SpawnZone")
+        {
+            Room room = collision.gameObject.GetComponentInParent<Room>();
+            GameObject pointZero = room.GetPointZero();
+
+            CameraController camera = FindObjectOfType<CameraController>();
+            camera.Move(pointZero.transform);
+
+            room.EnterFocus();
         }
     }
 
