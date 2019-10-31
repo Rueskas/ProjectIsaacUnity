@@ -9,7 +9,7 @@ public class Tear : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         transform.lossyScale.Set(1, 1, 1);
-        if(collision.tag != "Player")
+        if(collision.tag != "Tear")
         {
             StartAnim();
         }

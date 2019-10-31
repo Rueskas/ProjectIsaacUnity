@@ -12,6 +12,9 @@ TagManager:
   - FullHearth
   - HalfHearth
   - Item
+  - EnemyTear
+  - SpeedBallItem
+  - TreasureRoomKey
   layers:
   - Default
   - TransparentFX
@@ -25,7 +28,7 @@ TagManager:
   - CheckFreeZone
   - Player
   - Points
-  - 
+  - PlayerTears
   - 
   - 
   - 

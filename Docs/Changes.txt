@@ -8,3 +8,9 @@ Level generator
 
 0.3 30/10/2019
 Player can move between rooms, appears random enemies and you can kill them.
+
+0.4 31/10/2019
+New Enemy(Mini pop), Player has lives and can death,
+New treasure item (SpeedBall), After the first level
+you need a key to open the treasure room.
+UI Lives started.

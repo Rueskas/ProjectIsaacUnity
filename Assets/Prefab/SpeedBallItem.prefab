@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8922525480575741569}
   m_Layer: 0
   m_Name: SpeedBallItem
-  m_TagString: Item
+  m_TagString: SpeedBallItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

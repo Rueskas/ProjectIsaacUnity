@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float timeShot = 1;
     [SerializeField] private float lastShotTime = 0;
     [SerializeField] private float timeBeweenShots = 0.5f;
+    [SerializeField] private float maxLives;
+    [SerializeField] private float currentLives;
+    [SerializeField] private float halfHearth = 0.5f;
     [SerializeField] private GameObject tearShot;
     [SerializeField] private GameObject body;
     [SerializeField] private GameObject head;
@@ -16,6 +19,9 @@ public class Player : MonoBehaviour
     private Animator animatorHead;
     private SpriteRenderer spriteBody;
     private SpriteRenderer spriteHead;
+    private bool isDamaged = false;
+    private bool isAlive = true;
+    private bool hasTreasureRoomKey = false;
     private enum Direction { ToLeft, ToRight, ToUp, ToDown, Idle};
     private Direction direction;
 
@@ -26,7 +32,7 @@ public class Player : MonoBehaviour
         spriteBody = body.GetComponent<SpriteRenderer>();
         spriteHead = head.GetComponent<SpriteRenderer>();
         direction = Direction.ToDown;
-
+        currentLives = maxLives = 3;
     }
 
     void Update()
@@ -34,10 +40,16 @@ public class Player : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
-        transform.Translate(horizontal * Time.deltaTime * speed, vertical * Time.deltaTime * speed, 0);
-        Animate();
-        
-        InputShot();
+        if (isAlive)
+        {
+            transform.Translate(horizontal * Time.deltaTime * speed, vertical * Time.deltaTime * speed, 0);
+            if (!isDamaged)
+            {
+                Animate();
+            }
+
+            InputShot();
+        }
         
     }
 
@@ -108,6 +120,7 @@ public class Player : MonoBehaviour
     }
     private void AnimateBody()
     {
+        
         if (direction == Direction.ToUp || direction == Direction.ToDown)
         {
             animatorBody.Play("WalkUpDown");
@@ -157,18 +170,44 @@ public class Player : MonoBehaviour
 
     IEnumerator ChangeColorDamaged()
     {
-        SpriteRenderer[] spriteRenderer = GetComponentsInChildren<SpriteRenderer>();
-        for(int i = 0; i < 2; i++)
-        {
-            spriteRenderer[i].color = Color.red;
-        }
-        spriteRenderer[1].color = Color.red;
+        spriteBody.color = Color.red;
         yield return new WaitForSecondsRealtime(0.3f);
-        for (int i = 0; i < 2; i++)
-        {
-            spriteRenderer[i].color = Color.white;
-        }
 
+        spriteBody.color = Color.white;
+
+        animatorHead.gameObject.SetActive(true);
+        isDamaged = false;
+        GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+        animatorBody.SetBool("IsDamaged", isDamaged);
+    }
+
+    public void IsDamaged()
+    {
+        currentLives -= halfHearth;
+        if(currentLives != 0)
+        {
+            animatorHead.gameObject.SetActive(false);
+            StartCoroutine("ChangeColorDamaged");
+            animatorBody.SetBool("IsDamaged", isDamaged);
+        }
+        else
+        {
+            animatorHead.gameObject.SetActive(false);
+            isAlive = false;
+            animatorBody.SetBool("IsAlive", isAlive);
+            animatorBody.Play("Death");
+        }
+    }
+
+    public bool GetHasTreasureRoomKey()
+    {
+        return hasTreasureRoomKey;
+    }
+
+
+    public void SetHasTreasureRoomKey(bool hasTreasureRoomKey)
+    {
+        this.hasTreasureRoomKey = hasTreasureRoomKey;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -198,8 +237,16 @@ public class Player : MonoBehaviour
                         break;
                 }
             }
+            else
+            {
+                bool needKey = door.GetNeedKey();
+                if (needKey && hasTreasureRoomKey)
+                {
+                    door.SendMessage("OpenWithKey");
+                }
+            }
         }
-        if(collision.tag == "SpawnZone")
+        else if(collision.tag == "SpawnZone")
         {
             Room room = collision.gameObject.GetComponentInParent<Room>();
             GameObject pointZero = room.GetPointZero();
@@ -209,13 +256,44 @@ public class Player : MonoBehaviour
 
             room.EnterFocus();
         }
+        else if (collision.tag.Contains("Item"))
+        {
+            switch (collision.tag)
+            {
+                case "SpeedBallItem":
+                    timeBeweenShots -= timeBeweenShots / 2;
+                    Destroy(collision.gameObject);
+                    break;
+            }
+        }
+        else if (collision.tag == "TreasureRoomKey")
+        {
+            hasTreasureRoomKey = true;
+            Destroy(collision.gameObject);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy" && !isDamaged)
         {
-            StartCoroutine("ChangeColorDamaged");
+            isDamaged = true;
+            FindObjectOfType<GameController>().Damaged();
+            IsDamaged();
+        }
+        else if(collision.gameObject.tag == "FullHearth" 
+                && currentLives <= (maxLives - (halfHearth*2)))
+        {
+            currentLives += halfHearth*2;
+            FindObjectOfType<GameController>().Healthed(2);
+            Destroy(collision.gameObject);
+        }
+        else if (collision.gameObject.tag == "HalfHearth" &&
+                currentLives <= maxLives - halfHearth)
+        {
+            currentLives += halfHearth;
+            FindObjectOfType<GameController>().Healthed(1);
+            Destroy(collision.gameObject);
         }
     }
 

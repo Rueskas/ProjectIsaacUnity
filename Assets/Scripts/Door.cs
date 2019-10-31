@@ -6,10 +6,10 @@ public class Door : MonoBehaviour
 {
     private Animator animator;
     public enum DoorType { Normal, Treasure, Boss};
-    //private DoorType doorType;
     private bool isOpened;
+    private bool needKey = false;
 
-    void Start()
+    void Awake()
     {
         animator = GetComponent<Animator>();
     }
@@ -40,12 +40,20 @@ public class Door : MonoBehaviour
                 animator.Play("Tree");
                 break;
         }
+        if (type == DoorType.Treasure && level > 1)
+        {
+            needKey = true;
+        }
     }
 
     public void Open()
     {
-        isOpened = true;
-        animator.SetBool("Opened", true);
+        if (!needKey)
+        {
+            isOpened = true;
+            animator.SetBool("Opened", true);
+        }
+       
     }
     public void SetIsOpened(bool isOpened)
     {
@@ -55,5 +63,16 @@ public class Door : MonoBehaviour
     public bool GetIsOpened()
     {
         return isOpened;
+    }
+
+    public bool GetNeedKey()
+    {
+        return needKey;
+    }
+
+    public void OpenWithKey()
+    {
+        isOpened = true;
+        animator.SetBool("Opened", true);
     }
 }

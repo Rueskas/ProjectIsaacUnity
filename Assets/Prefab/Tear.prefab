@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3635808535601489036}
   - component: {fileID: 175098395558917079}
   - component: {fileID: 2665722099773787847}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Tear
   m_TagString: Tear
   m_Icon: {fileID: 0}

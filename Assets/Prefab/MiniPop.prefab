@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8097883699629875865}
   - component: {fileID: 3377060648576752497}
   - component: {fileID: 8041187370385791447}
+  - component: {fileID: 68690195}
   m_Layer: 0
   m_Name: MiniPop
   m_TagString: Enemy
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 8097883699629876070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.82, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -157,3 +158,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &68690195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097883699629876070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b279d160fad58b8438270545bd60c050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minTimeWaiting: 0.5
+  maxTimeWaiting: 1.5
+  live: 40
+  vectorDistanceIncreaser: 1.5

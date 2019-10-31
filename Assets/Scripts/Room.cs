@@ -9,6 +9,7 @@ public class Room : MonoBehaviour
     [SerializeField] GameObject[] nextRoomsPoints;
     [SerializeField] Door[] doorPoints;
     [SerializeField] private GameObject pointZero;
+    private List<GameObject> itemsToDrop;
     Dictionary<string, GameObject> connectedDoorsRooms;
     private LevelController levelController;
     private Door originDoorInRoom = null;
@@ -19,13 +20,13 @@ public class Room : MonoBehaviour
 
     void Awake()
     {
+        itemsToDrop = new List<GameObject>();
         levelController = FindObjectOfType<LevelController>();
+        bounds = transform.GetChild(0).GetComponent<BoxCollider2D>().bounds;
     }
 
     void Start()
     {
-        bounds = transform.GetChild(0).GetComponent<BoxCollider2D>().bounds;
-        print(bounds.size);
         connectedDoorsRooms = new Dictionary<string, GameObject>();
         for (int i = 0; i < doorPoints.Length; i++)
         {
@@ -122,6 +123,10 @@ public class Room : MonoBehaviour
         quantityEnemies--;
         if (quantityEnemies == 0)
         {
+            foreach(GameObject itemToDrop in itemsToDrop)
+            {
+                Instantiate(itemToDrop, transform);
+            }
             OpenDoors();
         }
     }
@@ -144,12 +149,11 @@ public class Room : MonoBehaviour
 
     public Vector2 RandomPointInBounds()
     {
-        return new Vector2(
-            Random.Range(transform.position.x + bounds.min.x,
-                                transform.position.x + bounds.max.x),
-            Random.Range(transform.position.y + bounds.min.y,
-                            transform.position.y + bounds.max.y)
+        Vector2 randomPosition = new Vector2(
+            Random.Range(bounds.min.x, bounds.max.x),
+            Random.Range(bounds.min.y, bounds.max.y)
         );
+        return randomPosition;
     }
 
     public GameObject GetPointZero()
@@ -164,6 +168,11 @@ public class Room : MonoBehaviour
         {
             EnterFocus();
         }
+    }
+
+    public void AddItemToDrop(GameObject itemToDrop)
+    {
+        this.itemsToDrop.Add(itemToDrop);
     }
     
 }

@@ -52,19 +52,18 @@ public class EnemyWithoutHead : MonoBehaviour
             transform.parent.GetComponent<Room>().SendMessage("EnemyDeath");
             Destroy(this.gameObject);
         }
-        if(rb2D.velocity == Vector2.zero)
+        if(rb2D.velocity != Vector2.zero)
         {
-            animator.SetBool("Moving", true);
+            animator.SetBool("Moving", false);
         }
         else
         {
-            animator.SetBool("Moving", false);
+            animator.SetBool("Moving", true);
         }
     }
 
     IEnumerator ChangeColorDamaged()
     {
-        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.color = Color.red;
         yield return new WaitForSecondsRealtime(0.3f);
         spriteRenderer.color = Color.white;

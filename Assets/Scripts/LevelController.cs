@@ -7,21 +7,29 @@ public class LevelController : MonoBehaviour
 {
     [SerializeField] private GameObject[] roomsPrefabs;
     [SerializeField] private GameObject[] enemiesPrefabs;
+    [SerializeField] private GameObject[] itemsToDropPrefabs;
+    [SerializeField] private GameObject[] treasureItemsPrefabs;
+    [SerializeField] private GameObject keyTreasureRoomPrefab;
     private int maxRooms;
     private int currentRooms;
+    private bool needKeyTreasure = false;
+    private int doorNumberToDropKey;
     private List<Room> rooms;
     private GameController game;
     public static float offsetBetweenDoorsY = 3.3f;
     public static float offsetBetweenDoorsX = -3.7f;
-    public static float offsetBetweenCameraPointsY = 6.47f;
-    public static float offsetBetweenCameraPointsX = -10.11f;
     void Start()
     {
         rooms = new List<Room>();
         game = FindObjectOfType<GameController>();
         currentRooms = 0;
         int level = game.GetLevel();
-        maxRooms = System.Convert.ToInt32(System.Math.Sqrt(level)*5);
+        maxRooms = System.Convert.ToInt32(System.Math.Sqrt(level) * 5);
+        if (level > 1)
+        {
+            needKeyTreasure = true;
+            doorNumberToDropKey = Random.Range(1, maxRooms-1);
+        }
         GameObject startRoom = Instantiate(
             roomsPrefabs[0], transform.position, Quaternion.identity);
         StartCoroutine("Generate", startRoom);
@@ -51,6 +59,11 @@ public class LevelController : MonoBehaviour
             }
             yield return new WaitWhile(() => 
             room.GetOriginDoorInRoom() == null);
+        }
+        if (needKeyTreasure && currentRooms > doorNumberToDropKey)
+        {
+            room.AddItemToDrop(keyTreasureRoomPrefab);
+            needKeyTreasure = false;
         }
         minNumberOfRooms =
             (maxRooms - currentRooms > 0) ? 1 : 0;
@@ -96,6 +109,15 @@ public class LevelController : MonoBehaviour
                         newRoom.GetComponent<Room>().SetOriginDoor(position);
                         newRoom.GetComponent<Room>().GetOriginDoorInRoom()
                             .SetType(Door.DoorType.Normal);
+
+                        int setItem = Random.Range(-2, 2);
+                        if(setItem > 0)
+                        {
+                            int indexItem = 
+                                Random.Range(0, itemsToDropPrefabs.Length);
+                            newRoom.GetComponent<Room>().
+                                AddItemToDrop(itemsToDropPrefabs[indexItem]);
+                        }
                         StartCoroutine("Generate", newRoom);
                     }
                 }
@@ -127,6 +149,7 @@ public class LevelController : MonoBehaviour
             rooms.OrderBy(room => Random.value).ToList();
         int count = 0;
         bool treasureRoomInstantiated = false;
+        float maxDistance = 4f;
         do
         {
             Room room = shuffledRooms[count];
@@ -136,28 +159,48 @@ public class LevelController : MonoBehaviour
                 if (door.isActiveAndEnabled == false && 
                         treasureRoomInstantiated == false)
                 {
-                    door.gameObject.SetActive(true);
-                    door.SetType(Door.DoorType.Treasure);
+
                     GameObject roomPointToInstantiate =
                         room.GetRoomPointFromDoorPoint(door.name);
-                    if (roomPointToInstantiate != null)
-                    {
-                        string position =
-                            door.gameObject.name.Replace("DoorPoint", "");
 
-                        GameObject newRoom = Instantiate(GetTreasureRoom(),
-                            roomPointToInstantiate.transform.position,
-                                Quaternion.identity);
-                        newRoom.GetComponent<Room>().SetOriginDoor(position);
-                        newRoom.GetComponent<Room>().GetOriginDoorInRoom()
-                            .SetType(Door.DoorType.Treasure);
-                        Door[] doorPointsOfNewRoom = 
-                            newRoom.GetComponent<Room>().GetDoorPoints();
-                        foreach (Door newDoor in doorPointsOfNewRoom)
+                    Vector2 originRay = door.transform.position;
+                    Vector2 directionRay =
+                        roomPointToInstantiate.transform.position -
+                            door.transform.position;
+                    RaycastHit2D[] hits = new RaycastHit2D[3];
+
+                    int touchs =
+                       door.GetComponent<Collider2D>().Raycast(
+                            directionRay, hits, maxDistance);
+
+                    if (touchs <= 1)
+                    {
+                        door.gameObject.SetActive(true);
+                        door.SetType(Door.DoorType.Treasure);
+                        if (roomPointToInstantiate != null)
                         {
-                            newDoor.gameObject.SetActive(false);
+                            string position =
+                                door.gameObject.name.Replace("DoorPoint", "");
+
+                            GameObject newRoom = Instantiate(GetTreasureRoom(),
+                                roomPointToInstantiate.transform.position,
+                                    Quaternion.identity);
+                            newRoom.GetComponent<Room>().SetOriginDoor(position);
+                            newRoom.GetComponent<Room>().GetOriginDoorInRoom()
+                                .SetType(Door.DoorType.Treasure);
+                            Door[] doorPointsOfNewRoom =
+                                newRoom.GetComponent<Room>().GetDoorPoints();
+                            foreach (Door newDoor in doorPointsOfNewRoom)
+                            {
+                                newDoor.gameObject.SetActive(false);
+                            }
+                            int treasureIndex =
+                                Random.Range(0, treasureItemsPrefabs.Length);
+                            GameObject treasureItem =
+                                treasureItemsPrefabs[treasureIndex];
+                            Instantiate(treasureItem, newRoom.transform);
+                            treasureRoomInstantiated = true;
                         }
-                        treasureRoomInstantiated = true;
                     }
                 }
             }
@@ -171,6 +214,7 @@ public class LevelController : MonoBehaviour
             rooms.OrderBy(room => Random.value).ToList();
         int count = 0;
         bool bossRoomInstantiated = false;
+        float maxDistance = 4f;
         do
         {
             Room room = shuffledRooms[count];
@@ -180,28 +224,42 @@ public class LevelController : MonoBehaviour
                 if (door.isActiveAndEnabled == false &&
                         bossRoomInstantiated == false)
                 {
-                    door.gameObject.SetActive(true);
-                    door.SetType(Door.DoorType.Boss);
                     GameObject roomPointToInstantiate =
                         room.GetRoomPointFromDoorPoint(door.name);
-                    if (roomPointToInstantiate != null)
-                    {
-                        string position =
-                            door.gameObject.name.Replace("DoorPoint", "");
 
-                        GameObject newRoom = Instantiate(GetBossRoom(),
-                            roomPointToInstantiate.transform.position,
-                                Quaternion.identity);
-                        newRoom.GetComponent<Room>().SetOriginDoor(position);
-                        newRoom.GetComponent<Room>().GetOriginDoorInRoom()
-                            .SetType(Door.DoorType.Boss);
-                        Door[] doorPointsOfNewRoom =
-                            newRoom.GetComponent<Room>().GetDoorPoints();
-                        foreach (Door newDoor in doorPointsOfNewRoom)
+                    Vector2 originRay = door.transform.position;
+                    Vector2 directionRay =
+                        roomPointToInstantiate.transform.position -
+                            door.transform.position;
+                    RaycastHit2D[] hits = new RaycastHit2D[3];
+
+                    int touchs =
+                       door.GetComponent<Collider2D>().Raycast(
+                            directionRay, hits, maxDistance);
+
+                    if (touchs <= 1)
+                    {
+                        door.gameObject.SetActive(true);
+                        door.SetType(Door.DoorType.Boss);
+                        if (roomPointToInstantiate != null)
                         {
-                            newDoor.gameObject.SetActive(false);
+                            string position =
+                                door.gameObject.name.Replace("DoorPoint", "");
+
+                            GameObject newRoom = Instantiate(GetBossRoom(),
+                                roomPointToInstantiate.transform.position,
+                                    Quaternion.identity);
+                            newRoom.GetComponent<Room>().SetOriginDoor(position);
+                            newRoom.GetComponent<Room>().GetOriginDoorInRoom()
+                                .SetType(Door.DoorType.Boss);
+                            Door[] doorPointsOfNewRoom =
+                                newRoom.GetComponent<Room>().GetDoorPoints();
+                            foreach (Door newDoor in doorPointsOfNewRoom)
+                            {
+                                newDoor.gameObject.SetActive(false);
+                            }
+                            bossRoomInstantiated = true;
                         }
-                        bossRoomInstantiated = true;
                     }
                 }
             }
