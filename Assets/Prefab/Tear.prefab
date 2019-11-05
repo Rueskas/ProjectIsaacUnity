@@ -134,6 +134,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 20
+  throwClip: {fileID: 8300000, guid: 27327dce7045a7a478b5cb00d5ec7768, type: 3}
+  touchedClip: {fileID: 8300000, guid: 9c5f29f554cb8cd4dbb5476294f9299c, type: 3}
 --- !u!95 &2665722099773787847
 Animator:
   serializedVersion: 3

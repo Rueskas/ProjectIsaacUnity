@@ -95,7 +95,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b8aba0f87d20047ad6a45f42f1717d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  opened: 0
 --- !u!70 &8002365945453097369
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -109,8 +108,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0036171684, y: -0.005082682}
-  m_Size: {x: 1.0072353, y: 0.4519976}
+  m_Offset: {x: 0.009458275, y: -0.0050826836}
+  m_Size: {x: 0.90898603, y: 0.45199808}
   m_Direction: 1
 --- !u!95 &1268543111
 Animator:

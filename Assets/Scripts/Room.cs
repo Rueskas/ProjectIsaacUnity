@@ -9,11 +9,12 @@ public class Room : MonoBehaviour
     [SerializeField] GameObject[] nextRoomsPoints;
     [SerializeField] Door[] doorPoints;
     [SerializeField] private GameObject pointZero;
+    GameObject nextLevelDoor;
     private List<GameObject> itemsToDrop;
     Dictionary<string, GameObject> connectedDoorsRooms;
     private LevelController levelController;
-    private Door originDoorInRoom = null;
-    
+    [SerializeField] private Door originDoorInRoom;
+    private AudioSource audioSource;
     private int quantityEnemies = 0;
     private bool ready = false;
     private bool isFocused = false;
@@ -22,11 +23,12 @@ public class Room : MonoBehaviour
     {
         itemsToDrop = new List<GameObject>();
         levelController = FindObjectOfType<LevelController>();
-        bounds = transform.GetChild(0).GetComponent<BoxCollider2D>().bounds;
+        bounds = transform.GetChild(0).GetComponent<Collider2D>().bounds;
     }
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         connectedDoorsRooms = new Dictionary<string, GameObject>();
         for (int i = 0; i < doorPoints.Length; i++)
         {
@@ -57,6 +59,7 @@ public class Room : MonoBehaviour
     {
         return ready;
     }
+
     public void InstantiateEnemies()
     {
         int numberEnemies = Random.Range(1, 5);
@@ -101,7 +104,7 @@ public class Room : MonoBehaviour
     {
         if(quantityEnemies > 0)
         {
-
+            audioSource.Play();
             Transform[] allChildren = 
                 GetComponentsInChildren<Transform>(true);
             foreach (Transform child in allChildren)
@@ -110,6 +113,18 @@ public class Room : MonoBehaviour
                 {
                     child.gameObject.SetActive(true);
                 }
+            }
+        }
+        else if (gameObject.name.Contains("Boss"))
+        {
+            GameObject boss = 
+                transform.GetChild(transform.childCount-1).gameObject;
+            nextLevelDoor = 
+                GameObject.FindGameObjectWithTag("NextLevelDoor");
+            if(boss.tag == "Enemy")
+            {
+                FindObjectOfType<GameController>().
+                    StartCoroutine("ShowImageBossFight", boss);
             }
         }
         else
@@ -121,11 +136,11 @@ public class Room : MonoBehaviour
     public void EnemyDeath()
     {
         quantityEnemies--;
-        if (quantityEnemies == 0)
+        if (quantityEnemies <= 0)
         {
             foreach(GameObject itemToDrop in itemsToDrop)
             {
-                Instantiate(itemToDrop, transform);
+                Instantiate(itemToDrop, RandomPointInBounds(), Quaternion.identity);
             }
             OpenDoors();
         }
@@ -133,17 +148,22 @@ public class Room : MonoBehaviour
 
     public void OpenDoors()
     {
-        foreach(Door door in doorPoints)
+        audioSource.Play();
+        foreach (Door door in doorPoints)
         {
             if (door.isActiveAndEnabled == true)
             {
                 door.Open();
             }
         }
-        print(originDoorInRoom);
         if (originDoorInRoom != null)
         {
             originDoorInRoom.GetComponent<Door>().Open();
+        }
+        if(nextLevelDoor != null)
+        {
+            nextLevelDoor.GetComponent<SpriteRenderer>().enabled = true;
+            nextLevelDoor.GetComponent<Collider2D>().enabled = true;
         }
     }
 
@@ -164,7 +184,8 @@ public class Room : MonoBehaviour
     public void SetIsFocused(bool isFocused)
     {
         this.isFocused = isFocused;
-        if (isFocused)
+        audioSource.volume = 1f;
+        if (this.isFocused)
         {
             EnterFocus();
         }

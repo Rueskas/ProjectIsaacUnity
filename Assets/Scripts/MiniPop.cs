@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class MiniPop : MonoBehaviour
 {
-    private Rigidbody2D rb2D;
     [SerializeField] private float minTimeWaiting = 0.5f;
     [SerializeField] private float maxTimeWaiting = 1.5f;
     [SerializeField] private int live = 40;
     [SerializeField] private float vectorDistanceIncreaser = 1.5f;
+    private Rigidbody2D rb2D;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     private bool isInvoked = false;
@@ -52,11 +52,7 @@ public class MiniPop : MonoBehaviour
         }
         if (rb2D.velocity == Vector2.zero)
         {
-            animator.SetBool("Attacking", true);
-        }
-        else
-        {
-            animator.SetBool("Attacking", false);
+            animator.Play("Idle");
         }
     }
 
@@ -74,6 +70,11 @@ public class MiniPop : MonoBehaviour
         {
             StartCoroutine("ChangeColorDamaged");
             live -= collision.gameObject.GetComponent<Tear>().GetDamage();
+        }
+        if (collision.gameObject.tag == "ItemPasiveDamage")
+        {
+            StartCoroutine("ChangeColorDamaged");
+            live -= FindObjectOfType<GameController>().GetLevel() * 15;
         }
     }
 

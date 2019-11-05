@@ -47,11 +47,7 @@ public class EnemyWithoutHead : MonoBehaviour
 
     void Update()
     {
-        if(live <= 0)
-        {
-            transform.parent.GetComponent<Room>().SendMessage("EnemyDeath");
-            Destroy(this.gameObject);
-        }
+        
         if(rb2D.velocity != Vector2.zero)
         {
             animator.SetBool("Moving", false);
@@ -60,6 +56,7 @@ public class EnemyWithoutHead : MonoBehaviour
         {
             animator.SetBool("Moving", true);
         }
+
     }
 
     IEnumerator ChangeColorDamaged()
@@ -76,6 +73,21 @@ public class EnemyWithoutHead : MonoBehaviour
         {
             StartCoroutine("ChangeColorDamaged");
             live -= collision.gameObject.GetComponent<Tear>().GetDamage();
+            if (live <= 0)
+            {
+                transform.parent.GetComponent<Room>().SendMessage("EnemyDeath");
+                Destroy(this.gameObject);
+            }
+        }
+        if (collision.gameObject.tag == "ItemPasiveDamage")
+        {
+            StartCoroutine("ChangeColorDamaged");
+            live -= FindObjectOfType<GameController>().GetLevel() * 15;
+            if (live <= 0)
+            {
+                transform.parent.GetComponent<Room>().SendMessage("EnemyDeath");
+                Destroy(this.gameObject);
+            }
         }
     }
 

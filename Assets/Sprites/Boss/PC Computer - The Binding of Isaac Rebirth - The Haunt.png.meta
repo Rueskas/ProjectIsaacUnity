@@ -1,0 +1,991 @@
+fileFormatVersion: 2
+guid: 6cb0e87541e57cc469184436b71c3260
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7188801959322751341
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_0
+  - first:
+      213: 6778951798236365721
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_1
+  - first:
+      213: -1571337205402998552
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_2
+  - first:
+      213: -2747913612740580652
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_3
+  - first:
+      213: 8533942460635858908
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_4
+  - first:
+      213: -3324251207681267268
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_5
+  - first:
+      213: -4155037465541037567
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_6
+  - first:
+      213: 5336206500288767562
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_7
+  - first:
+      213: -7812258734181098663
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_8
+  - first:
+      213: -9212226122072639496
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_9
+  - first:
+      213: 7168612265699757365
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_10
+  - first:
+      213: -2798209803365243160
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_11
+  - first:
+      213: 3938530779087034493
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_12
+  - first:
+      213: -985340614398093877
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_13
+  - first:
+      213: 5885640736866179620
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_14
+  - first:
+      213: 3707840575887053077
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_15
+  - first:
+      213: -1336984947902196677
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_16
+  - first:
+      213: 3694581637900132982
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_17
+  - first:
+      213: -1489597240127291346
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_18
+  - first:
+      213: -381803138080161267
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_19
+  - first:
+      213: 9200698068866486227
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_20
+  - first:
+      213: -5359628211783735135
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_21
+  - first:
+      213: 1668984599740330176
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_22
+  - first:
+      213: 3444081263787933708
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_23
+  - first:
+      213: -2580015882659001206
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_24
+  - first:
+      213: -3714975074039685114
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_25
+  - first:
+      213: -8984588725440423763
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_26
+  - first:
+      213: 3990980666334611651
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_27
+  - first:
+      213: -7748620570430047377
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_28
+  - first:
+      213: 2287496568337179038
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_29
+  - first:
+      213: 2810652054360060632
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_30
+  - first:
+      213: -6901556998191315684
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_31
+  - first:
+      213: 1718720892760951891
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_32
+  - first:
+      213: 2429058618425038443
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_33
+  - first:
+      213: -557857560903484293
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_34
+  - first:
+      213: 7774293305700544664
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_35
+  - first:
+      213: -8404132362544245802
+    second: PC Computer - The Binding of Isaac Rebirth - The Haunt_36
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 669
+        width: 73
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b74014063ffbd48a453271c1be55a9
+      internalID: -7188801959322751341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 669
+        width: 73
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd34943654eb1b4d994a4d06ad0bddb
+      internalID: 6778951798236365721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 669
+        width: 73
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a692ad5de1db9eb42a6b748d41282108
+      internalID: -1571337205402998552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 668
+        width: 63
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4098ce8c1601ef54895dd223226635c5
+      internalID: -2747913612740580652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 668
+        width: 63
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f1166d07591864298e7f11d3dd0e39
+      internalID: 8533942460635858908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 570
+        width: 71
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8348cbfb08309bc43a3e9301cebf8aab
+      internalID: -3324251207681267268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 570
+        width: 71
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc80d3eb6d0d5a41818777a365c67a2
+      internalID: -4155037465541037567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 576
+        width: 82
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5a4313dc2ae2546bbc17d935bb7543
+      internalID: 5336206500288767562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 570
+        width: 66
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2db7e6bde5973b42a1126d6e57e3de5
+      internalID: -7812258734181098663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_9
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 570
+        width: 66
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134687a9101eca94887f6484f91592b3
+      internalID: -9212226122072639496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 470
+        width: 68
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226f0d4dc41d3c440934544e12678ee0
+      internalID: 7168612265699757365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 474
+        width: 79
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ba9a218e9962342bedd090959ffbad
+      internalID: -2798209803365243160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 474
+        width: 79
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812feab58a9d2bb439eaca2888b8dc6b
+      internalID: 3938530779087034493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_13
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 474
+        width: 79
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf34be9ef88d8ac4a92a98ebfc9c673a
+      internalID: -985340614398093877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 380
+        width: 65
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1486c1394bfa9409b3afe9c4fa6c5c
+      internalID: 5885640736866179620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 379
+        width: 63
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4123d409918ea458b2633120dfb070
+      internalID: 3707840575887053077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_16
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 377
+        width: 63
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984f3b9d15aba6845b96db7d2b820ba9
+      internalID: -1336984947902196677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 381
+        width: 63
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d382e86b6adbf1d449694c199f5897a1
+      internalID: 3694581637900132982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_18
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 384
+        width: 79
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12795dc5d2abc745af7e0d69a066da5
+      internalID: -1489597240127291346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_19
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 290
+        width: 84
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93c6554aab71b7428914a35cf2b534c
+      internalID: -381803138080161267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_20
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 288
+        width: 79
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e108ecd10be01e840bb8e337807b4c19
+      internalID: 9200698068866486227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_21
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 290
+        width: 84
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e45cbfe302118489111faccc8e8857
+      internalID: -5359628211783735135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_22
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 274
+        width: 55
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12b62b5398606447a97745480138be6
+      internalID: 1668984599740330176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 186
+        width: 73
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe20d6de04639b344bd9a0985921003b
+      internalID: 3444081263787933708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_24
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 186
+        width: 73
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fad2a08a5dfa214cbd09e1fa9188ed9
+      internalID: -2580015882659001206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_25
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 227
+        width: 22
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641cf58f63406374dbd64f50036e5b5f
+      internalID: -3714975074039685114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_26
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 226
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f488eff48a212c546b1cc42aac2a83e1
+      internalID: -8984588725440423763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_27
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 194
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30589ae1be0b9784994d05e2b9e2282d
+      internalID: 3990980666334611651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_28
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 141
+        width: 32
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d9a29d80ba73e4c94e8d5364c7bc29
+      internalID: -7748620570430047377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 36
+        width: 126
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909f4bfdf9f328a40bae655059fb4c62
+      internalID: 2287496568337179038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_30
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 89
+        width: 28
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0b0b425afd90f4e999334983062ea9
+      internalID: 2810652054360060632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_31
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 98
+        width: 29
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a6d20db0600314a972ec14bcabb16f
+      internalID: -6901556998191315684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_32
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 62
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbffd354e6825b4fbca97443c21c8e2
+      internalID: 1718720892760951891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_33
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 65
+        width: 43
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94f996f3e9723a4680909a372a3a140
+      internalID: 2429058618425038443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 49
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427c902235ddbb640976941d645df0d1
+      internalID: -557857560903484293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 12
+        width: 43
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93b21d0a42650c40ae5e004848eb493
+      internalID: 7774293305700544664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Haunt_36
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 11
+        width: 169
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7da010632daea44098ddbd680836b7c
+      internalID: -8404132362544245802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

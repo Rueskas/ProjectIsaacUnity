@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float speed = 5f;
     [SerializeField] private float shotSpeed = 180f;
     [SerializeField] private float timeShot = 1;
+    [SerializeField] private float shotsPerInput = 1;
     [SerializeField] private float lastShotTime = 0;
     [SerializeField] private float timeBeweenShots = 0.5f;
     [SerializeField] private float maxLives;
@@ -15,6 +16,9 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject tearShot;
     [SerializeField] private GameObject body;
     [SerializeField] private GameObject head;
+    [SerializeField] private AudioClip[] damagedClips;
+    [SerializeField] private AudioClip deathClip;
+    private AudioSource audioSource;
     private Animator animatorBody;
     private Animator animatorHead;
     private SpriteRenderer spriteBody;
@@ -22,11 +26,29 @@ public class Player : MonoBehaviour
     private bool isDamaged = false;
     private bool isAlive = true;
     private bool hasTreasureRoomKey = false;
+    private bool blockedMovement = false;
     private enum Direction { ToLeft, ToRight, ToUp, ToDown, Idle};
     private Direction direction;
 
+    private static Player _instance;
+
+    void Awake()
+    {
+
+        if (_instance == null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
+
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         animatorBody = body.GetComponent<Animator>();
         animatorHead = head.GetComponent<Animator>();
         spriteBody = body.GetComponent<SpriteRenderer>();
@@ -40,7 +62,7 @@ public class Player : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
-        if (isAlive)
+        if (isAlive && !blockedMovement)
         {
             transform.Translate(horizontal * Time.deltaTime * speed, vertical * Time.deltaTime * speed, 0);
             if (!isDamaged)
@@ -48,45 +70,68 @@ public class Player : MonoBehaviour
                 Animate();
             }
 
-            InputShot();
+            StartCoroutine("InputShot");
         }
         
     }
 
-    private void InputShot()
+    IEnumerator InputShot()
     {
         if(Time.time - lastShotTime > timeBeweenShots)
         {
             if (Input.GetKey(KeyCode.UpArrow))
             {
-                GameObject tear = Instantiate(tearShot, transform.position, Quaternion.identity);
-                tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, shotSpeed));
-                tear.GetComponent<Tear>().Invoke("StartAnim", timeShot);
-                Destroy(tear, timeShot);
-                lastShotTime = Time.time;
+                for(int i = 0; i < shotsPerInput; i++)
+                {
+                    GameObject tear = Instantiate(
+                        tearShot, transform.position, Quaternion.identity);
+                    tear.GetComponent<Rigidbody2D>()
+                        .AddForce(new Vector2(0, shotSpeed));
+                    tear.GetComponent<Tear>().Invoke("StartAnim", timeShot);
+                    lastShotTime = Time.time;
+                    yield return new WaitForSeconds(0.1f);
+                }
             }
             if (Input.GetKey(KeyCode.LeftArrow))
             {
-                GameObject tear = Instantiate(tearShot, transform.position, Quaternion.identity);
-                tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(-shotSpeed, 0));
-                tear.GetComponent<Tear>().Invoke("StartAnim", timeShot);
-                lastShotTime = Time.time;
-                spriteHead.flipX = true;
+                for (int i = 0; i < shotsPerInput; i++)
+                {
+                    GameObject tear = Instantiate(
+                        tearShot, transform.position, Quaternion.identity);
+                    tear.GetComponent<Rigidbody2D>()
+                        .AddForce(new Vector2(-shotSpeed, 0));
+                    tear.GetComponent<Tear>().Invoke("StartAnim", timeShot);
+                    lastShotTime = Time.time;
+                    spriteHead.flipX = true;
+                    yield return new WaitForSeconds(0.1f);
+                }
             }
             if (Input.GetKey(KeyCode.DownArrow))
             {
-                GameObject tear = Instantiate(tearShot, transform.position, Quaternion.identity);
-                tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -shotSpeed));
-                tear.GetComponent<Tear>().Invoke("StartAnim", timeShot);
-                lastShotTime = Time.time;
+                for (int i = 0; i < shotsPerInput; i++)
+                {
+                    GameObject tear = Instantiate(
+                        tearShot, transform.position, Quaternion.identity);
+                    tear.GetComponent<Rigidbody2D>()
+                        .AddForce(new Vector2(0, -shotSpeed));
+                    tear.GetComponent<Tear>().Invoke("StartAnim", timeShot);
+                    lastShotTime = Time.time;
+                    yield return new WaitForSeconds(0.1f);
+                }
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
-                GameObject tear = Instantiate(tearShot, transform.position, Quaternion.identity);
-                tear.GetComponent<Rigidbody2D>().AddForce(new Vector2(shotSpeed, 0));
-                tear.GetComponent<Tear>().Invoke("StartAnim", timeShot);
-                lastShotTime = Time.time;
-                spriteHead.flipX = false;
+                for (int i = 0; i < shotsPerInput; i++)
+                {
+                    GameObject tear = Instantiate(
+                            tearShot, transform.position, Quaternion.identity);
+                    tear.GetComponent<Rigidbody2D>()
+                        .AddForce(new Vector2(shotSpeed, 0));
+                    tear.GetComponent<Tear>().Invoke("StartAnim", timeShot);
+                    lastShotTime = Time.time;
+                    spriteHead.flipX = false;
+                    yield return new WaitForSeconds(0.1f);
+                }
             }
         }
     }
@@ -181,17 +226,41 @@ public class Player : MonoBehaviour
         animatorBody.SetBool("IsDamaged", isDamaged);
     }
 
+    IEnumerator ItemTaken(string message)
+    {
+        FindObjectOfType<GameController>()
+            .StartCoroutine("SetMessageItem", message);
+        animatorHead.gameObject.SetActive(false);
+        animatorHead.enabled = false;
+        animatorBody.Play("ItemTaken");
+        blockedMovement = true;
+        yield return new WaitForSecondsRealtime(1.25f);
+        animatorHead.gameObject.SetActive(true);
+        animatorHead.enabled = true;
+        blockedMovement = false;
+    }
+
+    public GameObject GetTears()
+    {
+        return tearShot;
+    }
+
     public void IsDamaged()
     {
         currentLives -= halfHearth;
         if(currentLives != 0)
         {
+            audioSource.clip = 
+                damagedClips[Random.Range(0, damagedClips.Length)];
+            audioSource.Play();
             animatorHead.gameObject.SetActive(false);
             StartCoroutine("ChangeColorDamaged");
             animatorBody.SetBool("IsDamaged", isDamaged);
         }
         else
         {
+            audioSource.clip = deathClip;
+            audioSource.Play();
             animatorHead.gameObject.SetActive(false);
             isAlive = false;
             animatorBody.SetBool("IsAlive", isAlive);
@@ -203,7 +272,6 @@ public class Player : MonoBehaviour
     {
         return hasTreasureRoomKey;
     }
-
 
     public void SetHasTreasureRoomKey(bool hasTreasureRoomKey)
     {
@@ -246,24 +314,62 @@ public class Player : MonoBehaviour
                 }
             }
         }
-        else if(collision.tag == "SpawnZone")
+        else if(collision.tag == "RoomFloor")
         {
             Room room = collision.gameObject.GetComponentInParent<Room>();
+            room.SetIsFocused(true);
             GameObject pointZero = room.GetPointZero();
 
             CameraController camera = FindObjectOfType<CameraController>();
             camera.Move(pointZero.transform);
-
             room.EnterFocus();
         }
         else if (collision.tag.Contains("Item"))
         {
+            animatorHead.enabled = false;
             switch (collision.tag)
             {
                 case "SpeedBallItem":
-                    timeBeweenShots -= timeBeweenShots / 2;
+                    StartCoroutine("ItemTaken", "Speed Ball: Speed shot up!");
+                    timeBeweenShots -= (timeBeweenShots / 3f);
                     Destroy(collision.gameObject);
                     break;
+                case "PolyphemusItem":
+                    StartCoroutine(
+                        "ItemTaken", "Polyphemus: Look that tears!");
+                    Vector2 currentScale = 
+                        tearShot.GetComponent<Tear>().GetScale();
+                    tearShot.GetComponent<Tear>().AddScale(
+                        new Vector3(
+                            currentScale.x * 1.15f,
+                            currentScale.y * 1.15f, 0));
+                    Destroy(collision.gameObject);
+                    break;
+                case "DoubleShotItem":
+                    StartCoroutine(
+                        "ItemTaken", "Double Shot: I am seeing double?");
+                    shotsPerInput *= 2;
+                    Destroy(collision.gameObject);
+                    break;
+                case "CubeOfMeatItem":
+                    StartCoroutine(
+                        "ItemTaken", "Cube of meat: It's time to eat");
+                    collision.GetComponent<CubeOfMeat>()
+                        .SetPlayer(this.gameObject);
+                    collision.tag = "ItemPasiveDamage";
+                    collision.transform.parent = this.transform;
+                    break;
+                case "InnerEyeItem":
+                    StartCoroutine(
+                        "ItemTaken", "Inner Eye: shot, shot, shot");
+                    shotsPerInput += 2;
+                    int currentDamage = 
+                        tearShot.GetComponent<Tear>().GetDamage();
+                    tearShot.GetComponent<Tear>().SetDamage(currentDamage-7);
+                    Destroy(collision.gameObject);
+                    break;
+
+
             }
         }
         else if (collision.tag == "TreasureRoomKey")
@@ -271,11 +377,16 @@ public class Player : MonoBehaviour
             hasTreasureRoomKey = true;
             Destroy(collision.gameObject);
         }
+        else if (collision.tag == "NextLevelDoor")
+        {
+            FindObjectOfType<GameController>().NextLevel();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy" && !isDamaged)
+        if ((collision.gameObject.tag == "Enemy" ||
+                collision.gameObject.tag == "EnemyTear") && !isDamaged)
         {
             isDamaged = true;
             FindObjectOfType<GameController>().Damaged();

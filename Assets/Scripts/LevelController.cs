@@ -7,6 +7,7 @@ public class LevelController : MonoBehaviour
 {
     [SerializeField] private GameObject[] roomsPrefabs;
     [SerializeField] private GameObject[] enemiesPrefabs;
+    [SerializeField] private GameObject[] bossPrefabs;
     [SerializeField] private GameObject[] itemsToDropPrefabs;
     [SerializeField] private GameObject[] treasureItemsPrefabs;
     [SerializeField] private GameObject keyTreasureRoomPrefab;
@@ -16,15 +17,15 @@ public class LevelController : MonoBehaviour
     private int doorNumberToDropKey;
     private List<Room> rooms;
     private GameController game;
-    public static float offsetBetweenDoorsY = 3.3f;
-    public static float offsetBetweenDoorsX = -3.7f;
+    public static float offsetBetweenDoorsY = 3.25f;
+    public static float offsetBetweenDoorsX = -3.60f;
     void Start()
     {
         rooms = new List<Room>();
         game = FindObjectOfType<GameController>();
         currentRooms = 0;
         int level = game.GetLevel();
-        maxRooms = System.Convert.ToInt32(System.Math.Sqrt(level) * 5);
+        maxRooms = System.Convert.ToInt32(System.Math.Sqrt(level) * 7);
         if (level > 1)
         {
             needKeyTreasure = true;
@@ -136,11 +137,17 @@ public class LevelController : MonoBehaviour
 
     IEnumerator StartGame(GameObject startRoom)
     {
+        Player player = FindObjectOfType<Player>();
+        player.gameObject.SetActive(false);
         yield return new WaitWhile(() => currentRooms < maxRooms);
+
         GenerateBossRoom();
         GenerateTreasureRoom();
+        game.StartCoroutine("FadeOutWaitingStartImage");
+        yield return new WaitUntil(() => game.GetStartedLevel() == true);
+        player.gameObject.SetActive(true);
+        player.SetActiveCollider(true);
         startRoom.GetComponent<Room>().SetIsFocused(true);
-        FindObjectOfType<Player>().SetActiveCollider(true);
     }
 
     public void GenerateTreasureRoom()
@@ -198,7 +205,8 @@ public class LevelController : MonoBehaviour
                                 Random.Range(0, treasureItemsPrefabs.Length);
                             GameObject treasureItem =
                                 treasureItemsPrefabs[treasureIndex];
-                            Instantiate(treasureItem, newRoom.transform);
+                            Instantiate(treasureItem, 
+                                newRoom.transform.position, Quaternion.identity);
                             treasureRoomInstantiated = true;
                         }
                     }
@@ -254,6 +262,18 @@ public class LevelController : MonoBehaviour
                                 .SetType(Door.DoorType.Boss);
                             Door[] doorPointsOfNewRoom =
                                 newRoom.GetComponent<Room>().GetDoorPoints();
+                            GameObject boss = 
+                                Instantiate(GetRandomBoss(), 
+                                    newRoom.transform.position,
+                                        Quaternion.identity, 
+                                            newRoom.transform);
+                            boss.SetActive(false);
+                            int treasureIndex =
+                                Random.Range(0, treasureItemsPrefabs.Length);
+                            GameObject treasureItem =
+                                treasureItemsPrefabs[treasureIndex];
+                            newRoom.GetComponent<Room>().
+                                AddItemToDrop(treasureItem);
                             foreach (Door newDoor in doorPointsOfNewRoom)
                             {
                                 newDoor.gameObject.SetActive(false);
@@ -287,6 +307,12 @@ public class LevelController : MonoBehaviour
     public GameObject GetRandomEnemy()
     {
         return enemiesPrefabs[Random.Range(0, enemiesPrefabs.Length)];
+    }
+
+    public GameObject GetRandomBoss()
+    {
+        return bossPrefabs[1];
+        return bossPrefabs[Random.Range(0, bossPrefabs.Length)];
     }
 
 }

@@ -16,3 +16,14 @@ Hearths (health)--
 New Enemy (Minipop)--
 Item (SpeedBall)--
 Key of treasure door--
+
+0.5 Version
+Pause Game
+MainMenu
+Sounds
+Boss The Haunt
+Boss Dingle
+FinalScene
+New Enemy worm
+Many levels 
+New items(Polyphemus, cube of meat, doubleshot, innerEye)
