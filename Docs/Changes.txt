@@ -14,3 +14,14 @@ New Enemy(Mini pop), Player has lives and can death,
 New treasure item (SpeedBall), After the first level
 you need a key to open the treasure room.
 UI Lives started.
+
+0.5 05/11/2019
+Boss (The Haunter), 
+Main menu,
+Pause game
+sounds
+Items:
+	Double shot
+	Polyphemus (Increment scale)
+	Inner eye (Add 2 shots and decrease damage)
+	Cube of meat (Cube that rotate around the player)

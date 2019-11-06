@@ -97,8 +97,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000000059604645, y: 0.064098835}
-  m_Size: {x: 0.3820926, y: 0.59180236}
+  m_Offset: {x: 0.000000059604645, y: 0.35092568}
+  m_Size: {x: 0.3820926, y: 0.6610365}
   m_Direction: 0
 --- !u!50 &1503771031727742773
 Rigidbody2D:
@@ -152,3 +152,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c7a07db0ef20c41ac211e86b4bde9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minTimeWaitingShot: 0.5
+  maxTimeWaitingShot: 1.5
+  minTimeWaiting: 1
+  maxTimeWaiting: 3
+  live: 80
+  vectorDistanceIncreaser: 1.5
+  tear: {fileID: 8980260105659709471, guid: 2a70df0668021e14bbf3ef866b9fe924, type: 3}
+  shotSpeed: 50
+  timeShot: 1
+  speed: 1

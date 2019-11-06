@@ -15,6 +15,13 @@ public class Dingle : MonoBehaviour
     private Rigidbody2D rb2D;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    private float timeWaiting;
+    private int phase = 1;
+    [SerializeField] private GameObject minipop;
+    [SerializeField] private float minTimeWaiting = 1f;
+    [SerializeField] private float maxTimeWaiting = 3f;
+    [SerializeField] private float vectorDistanceIncreaser = 3f;
+    private int countAttacks = 0;
 
     void Start()
     {
@@ -24,17 +31,28 @@ public class Dingle : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         Invoke("FindImageBar", 1f);
+        StartCoroutine("Attack");
     }
 
     public void FindImageBar()
     {
         imageCurrentLive =
             transform.parent.Find("CurrentLive").gameObject;
+        transform.parent = null;
     }
 
     void Update()
     {
-        
+        if(currentLive == totalLive / 2)
+        {
+            phase = 2;
+        }
+        if(countAttacks == 3)
+        {
+            countAttacks = 0;
+            animator.Play("FinishedAttack");
+            StartCoroutine("Attack");
+        }
     }
 
     IEnumerator ChangeColorDamaged()
@@ -43,6 +61,37 @@ public class Dingle : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.3f);
         spriteRenderer.color = Color.white;
 
+    }
+
+    IEnumerator Attack()
+    {
+        yield return new WaitForSeconds(
+            Random.Range(minTimeWaiting, maxTimeWaiting));
+        if(phase == 1)
+        {
+            animator.Play("PreparingAttack");
+        }
+    }
+
+    private void AttackPhase1()
+    {
+        GameObject player = FindObjectOfType<Player>().gameObject;
+        Vector2 vectorDirection = player.transform.position - transform.position;
+        rb2D.AddForce(vectorDirection * vectorDistanceIncreaser, ForceMode2D.Impulse);
+        float angle = AngleBetween(Vector2.zero, vectorDirection);
+        if ((angle < 0 && angle > -45) || (angle > 0 && angle < 45))
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (angle < -135 || angle > 135)
+        {
+            spriteRenderer.flipX = true;
+        }
+    }
+
+    public void IncreaseCountAttack()
+    {
+        countAttacks++;
     }
 
     public void Destroy()
@@ -83,7 +132,9 @@ public class Dingle : MonoBehaviour
         if (collision.gameObject.tag == "ItemPasiveDamage")
         {
             StartCoroutine("ChangeColorDamaged");
-            float damage = FindObjectOfType<GameController>().GetLevel() * 15;
+            float damage = 
+                FindObjectOfType<GameController>().GetLevel() *
+                     GameController.damagePasiveItems;
             DecreaseLiveBar(damage);
             if (currentLive <= 0)
             {
@@ -91,5 +142,11 @@ public class Dingle : MonoBehaviour
                 animator.Play("Death");
             }
         }
+    }
+    private float AngleBetween(Vector2 v1, Vector2 v2)
+    {
+        Vector2 diference = v2 - v1;
+        float sign = (v2.y < v1.y) ? -1.0f : 1.0f;
+        return Vector2.Angle(Vector2.right, diference) * sign;
     }
 }

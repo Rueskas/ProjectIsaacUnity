@@ -18,12 +18,14 @@ Item (SpeedBall)--
 Key of treasure door--
 
 0.5 Version
-Pause Game
-MainMenu
-Sounds
-Boss The Haunt
+Pause Game--
+MainMenu--
+Sounds--
+Boss The Haunt--
+New items(Polyphemus, cube of meat, doubleshot, innerEye)--
+
+0.6 Version
+Many levels 
 Boss Dingle
 FinalScene
-New Enemy worm
-Many levels 
-New items(Polyphemus, cube of meat, doubleshot, innerEye)
+New Enemies (worm, fly, head)

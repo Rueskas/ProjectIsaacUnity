@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-
 public class MainMenuController : MonoBehaviour
 {
     [SerializeField] private Image imageMonsters;
@@ -33,8 +32,7 @@ public class MainMenuController : MonoBehaviour
                 Input.GetKeyDown(KeyCode.Return))
         {
             StartCoroutine("SelectItem");
-        } 
-
+        }
     }
 
     IEnumerator SelectItem()

@@ -45,27 +45,31 @@ public class MiniHaunt : MonoBehaviour
 
     }
 
+
+    private void Damaged(int damage)
+    {
+        StartCoroutine("ChangeColorDamaged");
+        live -= damage;
+        if (live <= 0)
+        {
+            FindObjectOfType<TheHaunt>().DiedMiniHaunt();
+            Destroy(this.gameObject);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (isActive && collision.tag == "Tear")
         {
-            StartCoroutine("ChangeColorDamaged");
-            live -= collision.gameObject.GetComponent<Tear>().GetDamage();
-            if (live <= 0)
-            {
-                FindObjectOfType<TheHaunt>().DiedMiniHaunt();
-                Destroy(this.gameObject);
-            }
+            int damage = collision.GetComponent<Tear>().GetDamage();
+            Damaged(damage);
         }
         if (isActive && collision.gameObject.tag == "ItemPasiveDamage")
         {
-            StartCoroutine("ChangeColorDamaged");
-            live -= FindObjectOfType<GameController>().GetLevel() * 15;
-            if (live <= 0)
-            {
-                transform.parent.GetComponent<Room>().SendMessage("EnemyDeath");
-                Destroy(this.gameObject);
-            }
+
+            int damage = FindObjectOfType<GameController>().GetLevel()
+                * GameController.damagePasiveItems;
+            Damaged(damage);
         }
     }
 

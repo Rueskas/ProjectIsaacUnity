@@ -130,7 +130,7 @@ public class TheHaunt : MonoBehaviour
     public void FindImageBar()
     {
         imageCurrentLive =
-            transform.parent.parent.Find("CurrentLive").gameObject;
+            GameObject.Find("CurrentLive").gameObject;
         GameObject parent = transform.parent.gameObject;
         transform.parent.DetachChildren();
         Destroy(parent);
@@ -182,10 +182,12 @@ public class TheHaunt : MonoBehaviour
                 Invoke("Destroy", 1f);
             }
         }
-        if (collision.gameObject.tag == "ItemPasiveDamage")
+        if (isActive && collision.gameObject.tag == "ItemPasiveDamage")
         {
             StartCoroutine("ChangeColorDamaged");
-            float damage = FindObjectOfType<GameController>().GetLevel() * 15;
+            float damage = 
+                FindObjectOfType<GameController>().GetLevel() *
+                     GameController.damagePasiveItems;
             DecreaseLiveBar(damage);
             if (currentLive <= 0)
             {

@@ -31,7 +31,9 @@ public class GameController : MonoBehaviour
     private bool startedLevel = false;
     private bool CheatMode = false;
     private bool gamePaused = false;
+    private bool gameFinished = false;
 
+    public static int damagePasiveItems = 40;
     private static GameController _instance;
 
     void Awake()
@@ -46,7 +48,7 @@ public class GameController : MonoBehaviour
         }
         else
         {
-            Destroy(this);
+            Destroy(this.gameObject);
         }
     }
 
@@ -111,7 +113,7 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !gameFinished)
         {
             if(Time.timeScale == 0)
             {
@@ -128,13 +130,20 @@ public class GameController : MonoBehaviour
                 pausePanel.SetActive(true);
             }
         }
+        else if(Input.GetKeyDown(KeyCode.Escape) && gameFinished)
+        {
+            SceneManager.LoadScene("MainMenu");
+            Destroy(FindObjectOfType<Player>().gameObject);
+            Time.timeScale = 1;
+            Destroy(this.gameObject);
+        }
 
         if(Input.GetKeyDown(KeyCode.Space) && gamePaused)
         {
             Application.Quit();
         }
 
-        if(Input.GetKeyDown(KeyCode.Space) &&
+        if (Input.GetKeyDown(KeyCode.Space) &&
                 Input.GetKeyDown(KeyCode.Return))
         {
             CheatMode = true;
@@ -219,6 +228,21 @@ public class GameController : MonoBehaviour
         boss.SetActive(true);
     }
 
+    private void FinishRun()
+    {
+        gameFinished = true;
+        gamePaused = true;
+        Time.timeScale = 0;
+        audioSource.Pause();
+        TextMeshProUGUI textTitle =
+            pausePanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+        textTitle.text = "GAME OVER";
+
+        pausePanel.transform.GetChild(2).GetComponent<TextMeshProUGUI>()
+            .text = "Press escape to main menu";
+        pausePanel.SetActive(true);
+    }
+
     public bool GetStartedLevel()
     {
         return startedLevel;
@@ -231,15 +255,21 @@ public class GameController : MonoBehaviour
 
     public void NextLevel()
     {
-        SceneManager.LoadScene("NewGame");
         FindObjectOfType<Player>().transform.position = Vector3.zero;
+        level++;
+        damagePasiveItems = level * 40;
+        startedLevel = false;
+        FindObjectOfType<Player>().SetHasTreasureRoomKey(false);
         Image[] waitingImages =
              waitingStartImage.GetComponentsInChildren<Image>();
 
+        SceneManager.LoadScene("NewGame");
         foreach (Image image in waitingImages)
         {
-            image.color = Color.white;
+            image.color = Color.black;
         }
+        FindObjectOfType<CameraController>().SendMessage("ResetPosition");
+        transform.position = new Vector3(0, 0, 15);
     }
 
     private Sprite GetImageBossWithName(string nameBoss)

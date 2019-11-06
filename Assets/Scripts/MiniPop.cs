@@ -74,7 +74,8 @@ public class MiniPop : MonoBehaviour
         if (collision.gameObject.tag == "ItemPasiveDamage")
         {
             StartCoroutine("ChangeColorDamaged");
-            live -= FindObjectOfType<GameController>().GetLevel() * 15;
+            live -= FindObjectOfType<GameController>().GetLevel() *
+                 GameController.damagePasiveItems;
         }
     }
 

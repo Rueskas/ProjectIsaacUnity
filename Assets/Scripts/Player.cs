@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject head;
     [SerializeField] private AudioClip[] damagedClips;
     [SerializeField] private AudioClip deathClip;
+    private GameController game;
     private AudioSource audioSource;
     private Animator animatorBody;
     private Animator animatorHead;
@@ -42,12 +43,13 @@ public class Player : MonoBehaviour
         }
         else
         {
-            Destroy(this);
+            Destroy(this.gameObject);
         }
     }
 
     void Start()
     {
+        game = FindObjectOfType<GameController>();
         audioSource = GetComponent<AudioSource>();
         animatorBody = body.GetComponent<Animator>();
         animatorHead = head.GetComponent<Animator>();
@@ -228,8 +230,7 @@ public class Player : MonoBehaviour
 
     IEnumerator ItemTaken(string message)
     {
-        FindObjectOfType<GameController>()
-            .StartCoroutine("SetMessageItem", message);
+        game.StartCoroutine("SetMessageItem", message);
         animatorHead.gameObject.SetActive(false);
         animatorHead.enabled = false;
         animatorBody.Play("ItemTaken");
@@ -265,6 +266,7 @@ public class Player : MonoBehaviour
             isAlive = false;
             animatorBody.SetBool("IsAlive", isAlive);
             animatorBody.Play("Death");
+            game.SendMessage("FinishRun");
         }
     }
 
@@ -317,7 +319,6 @@ public class Player : MonoBehaviour
         else if(collision.tag == "RoomFloor")
         {
             Room room = collision.gameObject.GetComponentInParent<Room>();
-            room.SetIsFocused(true);
             GameObject pointZero = room.GetPointZero();
 
             CameraController camera = FindObjectOfType<CameraController>();
@@ -357,6 +358,9 @@ public class Player : MonoBehaviour
                     collision.GetComponent<CubeOfMeat>()
                         .SetPlayer(this.gameObject);
                     collision.tag = "ItemPasiveDamage";
+                    collision.transform.position = 
+                        (collision.transform.position - transform.position)
+                        .normalized/1.5f + collision.transform.position;
                     collision.transform.parent = this.transform;
                     break;
                 case "InnerEyeItem":
@@ -379,7 +383,7 @@ public class Player : MonoBehaviour
         }
         else if (collision.tag == "NextLevelDoor")
         {
-            FindObjectOfType<GameController>().NextLevel();
+            game.SendMessage("NextLevel");
         }
     }
 
@@ -388,22 +392,23 @@ public class Player : MonoBehaviour
         if ((collision.gameObject.tag == "Enemy" ||
                 collision.gameObject.tag == "EnemyTear") && !isDamaged)
         {
+            print("holaa22a");
             isDamaged = true;
-            FindObjectOfType<GameController>().Damaged();
+            game.SendMessage("Damaged");
             IsDamaged();
         }
         else if(collision.gameObject.tag == "FullHearth" 
                 && currentLives <= (maxLives - (halfHearth*2)))
         {
             currentLives += halfHearth*2;
-            FindObjectOfType<GameController>().Healthed(2);
+            game.Healthed(2);
             Destroy(collision.gameObject);
         }
         else if (collision.gameObject.tag == "HalfHearth" &&
                 currentLives <= maxLives - halfHearth)
         {
             currentLives += halfHearth;
-            FindObjectOfType<GameController>().Healthed(1);
+            game.Healthed(1);
             Destroy(collision.gameObject);
         }
     }

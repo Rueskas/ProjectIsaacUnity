@@ -146,8 +146,9 @@ public class LevelController : MonoBehaviour
         game.StartCoroutine("FadeOutWaitingStartImage");
         yield return new WaitUntil(() => game.GetStartedLevel() == true);
         player.gameObject.SetActive(true);
+        player.GetComponent<Collider2D>().enabled = true;
         player.SetActiveCollider(true);
-        startRoom.GetComponent<Room>().SetIsFocused(true);
+        startRoom.GetComponent<Room>().EnterFocus();
     }
 
     public void GenerateTreasureRoom()
@@ -312,7 +313,8 @@ public class LevelController : MonoBehaviour
     public GameObject GetRandomBoss()
     {
         return bossPrefabs[1];
-        return bossPrefabs[Random.Range(0, bossPrefabs.Length)];
+        //return bossPrefabs[0]; Dingle Boss not working
+        //return bossPrefabs[Random.Range(0, bossPrefabs.Length)];
     }
 
 }

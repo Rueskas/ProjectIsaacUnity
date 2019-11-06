@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9184551314577640024}
   - component: {fileID: 9184551314577640025}
   - component: {fileID: 2356685029173237102}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: CubeOfMeatItem
   m_TagString: CubeOfMeatItem
   m_Icon: {fileID: 0}

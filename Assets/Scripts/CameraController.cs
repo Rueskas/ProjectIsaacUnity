@@ -11,6 +11,7 @@ public class CameraController : MonoBehaviour
     {
         target = transform.position;
     }
+
     public void Move(Transform pointZero)
     {
         target = pointZero.position;
@@ -23,5 +24,10 @@ public class CameraController : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position,
                 target, speed * Time.deltaTime);
         }
+    }
+
+    public void ResetPosition()
+    {
+        target = new Vector3(0, 0, 15);
     }
 }

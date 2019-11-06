@@ -17,7 +17,6 @@ public class Room : MonoBehaviour
     private AudioSource audioSource;
     private int quantityEnemies = 0;
     private bool ready = false;
-    private bool isFocused = false;
 
     void Awake()
     {
@@ -102,6 +101,8 @@ public class Room : MonoBehaviour
 
     public void EnterFocus()
     {
+        print("ergwergeg");
+        print(gameObject.name);
         if(quantityEnemies > 0)
         {
             audioSource.Play();
@@ -179,16 +180,6 @@ public class Room : MonoBehaviour
     public GameObject GetPointZero()
     {
         return pointZero;
-    }
-
-    public void SetIsFocused(bool isFocused)
-    {
-        this.isFocused = isFocused;
-        audioSource.volume = 1f;
-        if (this.isFocused)
-        {
-            EnterFocus();
-        }
     }
 
     public void AddItemToDrop(GameObject itemToDrop)

@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\CubeOfMeat.cs" />
     <Compile Include="Assets\Scripts\Dingle.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\EnemyFly.cs" />
+    <Compile Include="Assets\Scripts\EnemyHead.cs" />
     <Compile Include="Assets\Scripts\EnemyTear.cs" />
     <Compile Include="Assets\Scripts\EnemyWithoutHead.cs" />
     <Compile Include="Assets\Scripts\EnemyWorm.cs" />

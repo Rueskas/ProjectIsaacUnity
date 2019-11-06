@@ -425,6 +425,9 @@ MonoBehaviour:
   enemiesPrefabs:
   - {fileID: 2346728741320163958, guid: 99ee1432c3564bd45a8a5f85b239be5b, type: 3}
   - {fileID: 8097883699629876070, guid: 2af924735c219c64eb9900df6465ac51, type: 3}
+  - {fileID: 1599427265258056710, guid: 03a9befa47e0f644c9107d21bf71c1d5, type: 3}
+  - {fileID: 433277427077206838, guid: 4b71d0f14b2b0a148960e93dc45462ca, type: 3}
+  - {fileID: 1503771031727742761, guid: 0a8658f5596d1d444949d4f3e56a5dc7, type: 3}
   bossPrefabs:
   - {fileID: 2319268305363926794, guid: 4ff4c9c91bbf58f45980127e6b08e308, type: 3}
   - {fileID: 4609956949785026884, guid: a33b1e68b2036fc4bb4f6e27555daf8a, type: 3}
@@ -1198,6 +1201,31 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1846284606089137396, guid: c0bd84d307228d647bdcde9df7c23c04,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 14.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846284606089137396, guid: c0bd84d307228d647bdcde9df7c23c04,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 545.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846284606089137396, guid: c0bd84d307228d647bdcde9df7c23c04,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 114.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846284606089137396, guid: c0bd84d307228d647bdcde9df7c23c04,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 101.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846284606089137397, guid: c0bd84d307228d647bdcde9df7c23c04,
+        type: 3}
+      propertyPath: m_Name
+      value: Title
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0bd84d307228d647bdcde9df7c23c04, type: 3}
 --- !u!224 &1816556949 stripped
@@ -1298,6 +1326,11 @@ PrefabInstance:
       propertyPath: deathClip
       value: 
       objectReference: {fileID: 8300000, guid: 0189b75b47e8f2c43a7b8b422edccf9e, type: 3}
+    - target: {fileID: 3790008862650456082, guid: af82abf93a3143d48a066a461707002a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af82abf93a3143d48a066a461707002a, type: 3}
 --- !u!224 &4058751922229919164 stripped
